@@ -240,6 +240,7 @@ Pasarela de Pago
 [BD Productos]
 ```
 
+---
 # 5. Modelo de Datos (DER Lógico)
 
 > Nota: Aunque la implementación técnica apunte a DynamoDB (NoSQL), se documenta el modelo en formato relacional para dejar claro el **dominio de datos** de AUMA.
@@ -436,3 +437,154 @@ V003 → P001 + F-SANDALO (stock 5)
 El usuario elige una fragancia y se mapea directamente a la variante correspondiente.
 
 ---
+
+# 6. Modelo de Clases (Conceptual OO)
+
+A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando clases representadas con tablas Markdown.
+
+---
+
+### Clase: Categoria
+
+| Atributo        | Tipo     | Descripción                           |
+|-----------------|----------|---------------------------------------|
+| idCategoria     | PK       | Identificador único                   |
+| nombre          | String   | Nombre de la categoría                |
+| descripcion     | String   | Descripción opcional                  |
+| activa          | Boolean  | Indica si la categoría está vigente   |
+
+---
+
+### Clase: LineaProducto
+
+| Atributo    | Tipo    | Descripción                        |
+|-------------|---------|------------------------------------|
+| idLinea     | PK      | Identificador único                |
+| nombre      | String  | Nombre de la línea (Tradicional…)  |
+| descripcion | String  | Descripción de la línea            |
+| activa      | Boolean | Línea disponible o no              |
+
+---
+
+### Clase: Recipiente
+
+| Atributo       | Tipo    | Descripción                                     |
+|----------------|---------|-------------------------------------------------|
+| idRecipiente   | PK      | Identificador único                             |
+| nombre         | String  | Ej.: “Frasco 100cc tapa negra”                  |
+| material       | String  | Vidrio, metal, cerámica…                        |
+| color          | String  | Ámbar, transparente, blanco…                    |
+| volumenCc      | Number  | Capacidad del recipiente                        |
+| forma          | String  | Cilíndrico, vaso, frasco                        |
+| descripcion    | String  | Descripción opcional                            |
+
+---
+
+### Clase: Fragancia
+
+| Atributo        | Tipo    | Descripción                               |
+|-----------------|---------|-------------------------------------------|
+| idFragancia     | PK      | Identificador único                       |
+| nombre          | String  | Nombre de la fragancia                    |
+| descripcion     | String  | Descripción larga                         |
+| familiaOlfativa | String  | Cítrico, floral, amaderado, herbal…       |
+| activa          | Boolean | Indica si está disponible para productos  |
+
+---
+
+### Clase: Producto (PRODUCTO BASE)
+
+| Atributo         | Tipo      | Descripción                                               |
+|------------------|-----------|-----------------------------------------------------------|
+| idProducto       | PK        | Identificador único                                       |
+| nombreComercial  | String    | Nombre que se muestra en la tienda                        |
+| descripcion       | String    | Descripción del producto base                            |
+| volumenCc        | Number    | Tamaño del producto en cc/ml                              |
+| activo           | Boolean   | Indica si el producto se muestra en catálogo              |
+| categoria        | Categoria | Asociación 1–1 con categoría                              |
+| linea            | LineaProducto | Asociación 1–1 con línea                              |
+| recipiente       | Recipiente | Asociación 1–1 con recipiente                            |
+
+**Métodos:**
+
+| Método               | Descripción                                 |
+|----------------------|---------------------------------------------|
+| obtenerVariantes()   | Devuelve las variantes de fragancia         |
+
+---
+
+### Clase: VarianteProducto (SKU vendible)
+
+| Atributo       | Tipo            | Descripción                                      |
+|----------------|-----------------|--------------------------------------------------|
+| idVariante     | PK              | Identificador único de la variante               |
+| producto       | Producto        | Producto base al que pertenece                   |
+| fragancia      | Fragancia       | Fragancia seleccionada                           |
+| sku            | String          | Código SKU                                       |
+| precioActual   | Number          | Precio vigente                                   |
+| stockActual    | Number          | Stock disponible                                 |
+| activo         | Boolean         | Habilitado en catálogo o no                      |
+
+**Métodos:**
+
+| Método            | Descripción                         |
+|-------------------|-------------------------------------|
+| actualizarStock() | Reduce o aumenta el stock           |
+
+---
+
+### Clase: Cliente
+
+| Atributo    | Tipo    | Descripción                      |
+|-------------|---------|----------------------------------|
+| idCliente   | PK      | Identificador único              |
+| nombre      | String  | Nombre completo                  |
+| email       | String  | Correo electrónico               |
+| direccion   | String  | Dirección opcional               |
+| telefono    | String  | Teléfono opcional                |
+
+---
+
+### Clase: Pedido
+
+| Atributo       | Tipo      | Descripción                               |
+|----------------|-----------|-------------------------------------------|
+| idPedido       | PK        | Identificador único                       |
+| cliente        | Cliente   | Cliente asociado                          |
+| fechaCreacion  | DateTime  | Fecha del pedido                          |
+| total          | Number    | Monto total                               |
+| estado         | String    | pendiente / pagado / cancelado            |
+| estadoPago     | String    | aprobado / rechazado / pendiente          |
+| referenciaPago | String    | ID de pasarela (Webhook)                  |
+
+---
+
+### Clase: ItemPedido
+
+| Atributo     | Tipo            | Descripción                                      |
+|--------------|-----------------|--------------------------------------------------|
+| idItem       | PK              | Identificador único del ítem                     |
+| pedido       | Pedido          | Pedido al que pertenece                          |
+| variante     | VarianteProducto| Variante seleccionada                            |
+| cantidad     | Number          | Cantidad solicitada                              |
+| precioUnit   | Number          | Precio unitario al momento de la compra          |
+| subtotal     | Number          | precioUnit * cantidad                            |
+
+---
+# 7. Conclusión
+
+El presente documento reúne los modelos esenciales que describen el funcionamiento conceptual del sistema e-commerce AUMA.  
+Incluye el modelo de contexto, casos de uso, flujos de datos, modelo de datos lógico y modelo de clases orientado al dominio real del negocio.
+
+La incorporación de entidades como **Categoría**, **Línea**, **Recipiente**, **Fragancia** y **VarianteProducto** permite estructurar un catálogo flexible, escalable y coherente con el crecimiento de la marca AUMA.
+
+Estos modelos constituyen la base para las siguientes etapas del proyecto:
+
+- diseño arquitectónico en AWS,  
+- definición de endpoints y servicios backend,  
+- modelado de base de datos en DynamoDB,  
+- implementación del frontend,  
+- y planificación de pruebas.
+
+Con la finalización de este capítulo, el equipo cuenta con una visión completa, clara y formal del sistema antes de avanzar hacia la construcción técnica.
+
