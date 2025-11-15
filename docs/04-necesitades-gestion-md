@@ -1,0 +1,210 @@
+# 04 – Necesidades de Gestión  
+Versión 1.0
+
+---
+
+# 1. Introducción
+
+El presente documento identifica y analiza las **necesidades de gestión** del emprendimiento AUMA, relacionadas con la administración de ventas, productos, clientes, pagos y operaciones internas.  
+
+Su propósito es determinar qué áreas requieren digitalización y qué información debe gestionarse adecuadamente para soportar el crecimiento y garantizar un funcionamiento eficiente del futuro sistema e-commerce.
+
+---
+
+# 2. Contexto de Gestión Actual
+
+AUMA funciona actualmente con procesos manuales y descentralizados:  
+- pedidos recibidos por Instagram,  
+- pagos coordinados por mensajes,  
+- inventario manejado en forma artesanal,  
+- registros administrativos dispersos.  
+
+Aunque esto permite operar a pequeña escala, limita la expansión y vuelve el negocio susceptible a errores, demoras y pérdida de información clave.
+
+La implementación del sistema busca resolver estas dificultades mediante una plataforma centralizada que ordene, automatice y facilite la gestión integral.
+
+---
+
+# 3. Necesidades de Gestión Relevadas
+
+A partir del análisis de procesos del documento anterior, se identifican las siguientes necesidades clave:
+
+---
+
+## 3.1. Gestión del Catálogo de Productos
+
+La empresa necesita controlar de manera organizada y digital:
+
+- Creación de productos nuevos.  
+- Edición de precios, descripciones y aromas.  
+- Actualización de stock.  
+- Manejo de categorías o tipos de productos.  
+- Control de variantes (tamaños, aromas, ediciones especiales).  
+- Publicación/ocultamiento de productos según disponibilidad.  
+
+**Necesidad:**  
+Contar con un sistema centralizado que permita mantener el catálogo siempre actualizado y visible al cliente.
+
+---
+
+## 3.2. Gestión de Pedidos
+
+Para evitar desorden, la gestión de pedidos debe permitir:
+
+- Registrar pedidos automáticamente desde la tienda.  
+- Consultar información completa de cada orden.  
+- Ver estado del pedido (pendiente, pagado, en preparación, enviado, entregado).  
+- Controlar fechas de creación, pago y envío.  
+- Visualizar detalles del cliente y del carrito elegido.  
+
+**Necesidad:**  
+Un módulo de gestión de órdenes que unifique toda la información y permita seguimiento.
+
+---
+
+## 3.3. Gestión de Usuarios y Clientes
+
+La tienda requerirá:
+
+- Registro e inicio de sesión de clientes.  
+- Almacenamiento seguro de datos básicos.  
+- Recuperación de contraseña.  
+- Visualización de perfil.  
+- (A futuro) Historial de compras.  
+- Distinción de roles: cliente / administrador / editor.  
+
+**Necesidad:**  
+Sistema de autenticación robusto y flexible (Amazon Cognito).
+
+---
+
+## 3.4. Gestión de Pagos
+
+El proceso de pago debe evolucionar desde la transferencia manual a un mecanismo más confiable y escalable:
+
+- Integración con pasarela de pago (ej. Mercado Pago / Stripe).  
+- Confirmación automática mediante webhooks.  
+- Registro del estado de la transacción.  
+- Generación de comprobantes.  
+
+**Necesidad:**  
+Registrar pagos de forma segura y automatizada, reduciendo errores y tiempos de gestión.
+
+---
+
+## 3.5. Gestión de Stock
+
+El negocio requiere:
+
+- Control en tiempo real de existencias.  
+- Reducción automática de stock al confirmar un pedido.  
+- Alertas por bajo stock.  
+- Registro de ingresos y egresos de inventario.  
+- Relación entre productos elaborados y materias primas (fase posterior).
+
+**Necesidad:**  
+Sistema que sincronice catálogo, pedidos y stock sin intervención manual.
+
+---
+
+## 3.6. Gestión Administrativa y Analítica
+
+A medida que AUMA crezca, será necesario incorporar:
+
+- Reportes de ventas por período.  
+- Productos más vendidos.  
+- Tasa de conversión de usuarios.  
+- Seguimiento de ingresos.  
+- Estadísticas básicas de uso.  
+
+**Necesidad:**  
+Un módulo analítico evolutivo que ofrezca información para la toma de decisiones.
+
+---
+
+## 3.7. Gestión Logística
+
+Aunque AUMA no opera logística propia, necesita:
+
+- Registrar método de entrega elegido por el cliente.  
+- Registrar datos de envío.  
+- (Futuro) Integración con servicios de correo.  
+- Actualizar estado de envío.  
+
+**Necesidad:**  
+Estructura mínima para manejar entregas y su estado.
+
+---
+
+## 3.8. Gestión del Panel Administrativo
+
+La empresa requiere un entorno centralizado donde los administradores puedan:
+
+- Consultar todas las órdenes.  
+- Gestionar productos.  
+- Revisar pagos confirmados.  
+- Actualizar estados de los pedidos.  
+- Visualizar estadísticas simples.  
+
+**Necesidad:**  
+Panel intuitivo y seguro, accesible solo por usuarios autorizados.
+
+---
+
+# 4. Información que el Sistema Debe Gestionar
+
+El sistema deberá manejar y mantener la siguiente información estructurada:
+
+### **4.1. Información de productos**
+- Nombre  
+- Categoría  
+- Descripción  
+- Aroma  
+- Precio  
+- Imágenes  
+- Stock  
+- Estado (activo/inactivo)
+
+### **4.2. Información de clientes**
+- Nombre  
+- Email  
+- Contraseña (encriptada)  
+- Dirección y datos de contacto  
+- Historial de pedidos (futuro)  
+
+### **4.3. Información de pedidos**
+- Número de orden  
+- Fecha de creación  
+- Productos incluidos  
+- Total  
+- Estado  
+- Datos del cliente  
+- Estado de pago  
+
+### **4.4. Información administrativa**
+- Ventas por período  
+- Stock total  
+- Notificaciones de bajo stock  
+- Confirmaciones de pago  
+
+---
+
+# 5. Conclusión
+
+El análisis evidencia que AUMA necesita un sistema robusto que permita gestionar:
+
+- catálogo,  
+- pedidos,  
+- clientes,  
+- pagos,  
+- stock  
+- y operaciones administrativas.  
+
+Estas necesidades justifican el diseño e implementación del e-commerce completo propuesto en este proyecto.
+
+La identificación clara de estas áreas permitirá definir correctamente los requerimientos funcionales y no funcionales en los documentos posteriores.
+
+---
+
+**Ubicación del archivo:**  
+`docs/04-necesidades-gestion.md`
