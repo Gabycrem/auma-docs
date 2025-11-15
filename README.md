@@ -54,5 +54,5 @@ Desarrollo, organización y dirección del proyecto AUMA.
 ---
 
 <div align="center">
-<pre><code>Siempre construyendo, siempre aprendiendo. -- GABYCREM® </code></pre>
+<code>Siempre construyendo, siempre aprendiendo. -- GABYCREM® </code>
 </div>
