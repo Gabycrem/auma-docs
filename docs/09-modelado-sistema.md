@@ -322,9 +322,12 @@ por ejemplo, “Vela 100cc en frasco de vidrio con tapa negra”.
 - Es lo que realmente se vende y se descuenta en stock.
 - En la ficha de producto:
   - Se muestra: Producto
-  - El usuario elige la fragancia de un <select> que lista las VariantesProducto asociadas.
+  - El usuario elige la fragancia de un `<select>` que lista las VariantesProducto asociadas.
   - Las variantes con stockActual = 0 se muestran deshabilitadas / en gris con “sin stock”.
- 
+
+
+
+
 ## 5.4. Clientes, Pedidos e Ítems
 
 ```
@@ -364,7 +367,6 @@ por ejemplo, “Vela 100cc en frasco de vidrio con tapa negra”.
 | precioUnitario               |
 | subtotal                     |
 +------------------------------+
-
 ```
 
 ## 5.5. Relaciones y cardinalidades (resumen)
@@ -398,27 +400,27 @@ por ejemplo, “Vela 100cc en frasco de vidrio con tapa negra”.
 ## 5.6. Ejemplo concreto
 
 #### Productos
-
+```txt
 idProducto = P001
 nombreComercial = "Vela 100cc en frasco de vidrio con tapa negra"
 idLinea = L-TRADICIONAL
 idCategoria = CAT-VELAS
 idRecipiente = REC-100-VIDRIO-TAPA-NEGRA
-
+```
 
 #### Fragancias
-
+```txt
 idFragancia = F-LEMONGRASS
 idFragancia = F-VAINILLA
 idFragancia = F-SANDALO
-
+```
 
 #### VariantesProducto
-
+```txt
 V001 → P001 + F-LEMONGRASS (stock 10)
 V002 → P001 + F-VAINILLA (stock 0) → aparece deshabilitada
 V003 → P001 + F-SANDALO (stock 5)
-
+```
 
 #### ¿Qué ve el usuario en la ficha de producto?
 
@@ -445,29 +447,29 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 ---
 
 ### Clase: Categoria
-
+```
 | Atributo        | Tipo     | Descripción                           |
 |-----------------|----------|---------------------------------------|
 | idCategoria     | PK       | Identificador único                   |
 | nombre          | String   | Nombre de la categoría                |
 | descripcion     | String   | Descripción opcional                  |
 | activa          | Boolean  | Indica si la categoría está vigente   |
-
+```
 ---
 
 ### Clase: LineaProducto
-
+```
 | Atributo    | Tipo    | Descripción                        |
 |-------------|---------|------------------------------------|
 | idLinea     | PK      | Identificador único                |
 | nombre      | String  | Nombre de la línea (Tradicional…)  |
 | descripcion | String  | Descripción de la línea            |
 | activa      | Boolean | Línea disponible o no              |
-
+```
 ---
 
 ### Clase: Recipiente
-
+```
 | Atributo       | Tipo    | Descripción                                     |
 |----------------|---------|-------------------------------------------------|
 | idRecipiente   | PK      | Identificador único                             |
@@ -477,11 +479,11 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | volumenCc      | Number  | Capacidad del recipiente                        |
 | forma          | String  | Cilíndrico, vaso, frasco                        |
 | descripcion    | String  | Descripción opcional                            |
-
+```
 ---
 
 ### Clase: Fragancia
-
+```
 | Atributo        | Tipo    | Descripción                               |
 |-----------------|---------|-------------------------------------------|
 | idFragancia     | PK      | Identificador único                       |
@@ -489,11 +491,11 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | descripcion     | String  | Descripción larga                         |
 | familiaOlfativa | String  | Cítrico, floral, amaderado, herbal…       |
 | activa          | Boolean | Indica si está disponible para productos  |
-
+```
 ---
 
 ### Clase: Producto (PRODUCTO BASE)
-
+```
 | Atributo         | Tipo      | Descripción                                               |
 |------------------|-----------|-----------------------------------------------------------|
 | idProducto       | PK        | Identificador único                                       |
@@ -504,17 +506,17 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | categoria        | Categoria | Asociación 1–1 con categoría                              |
 | linea            | LineaProducto | Asociación 1–1 con línea                              |
 | recipiente       | Recipiente | Asociación 1–1 con recipiente                            |
-
+```
 **Métodos:**
-
+```
 | Método               | Descripción                                 |
 |----------------------|---------------------------------------------|
 | obtenerVariantes()   | Devuelve las variantes de fragancia         |
-
+```
 ---
 
 ### Clase: VarianteProducto (SKU vendible)
-
+```
 | Atributo       | Tipo            | Descripción                                      |
 |----------------|-----------------|--------------------------------------------------|
 | idVariante     | PK              | Identificador único de la variante               |
@@ -524,17 +526,17 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | precioActual   | Number          | Precio vigente                                   |
 | stockActual    | Number          | Stock disponible                                 |
 | activo         | Boolean         | Habilitado en catálogo o no                      |
-
+```
 **Métodos:**
-
+```
 | Método            | Descripción                         |
 |-------------------|-------------------------------------|
 | actualizarStock() | Reduce o aumenta el stock           |
-
+```
 ---
 
 ### Clase: Cliente
-
+```
 | Atributo    | Tipo    | Descripción                      |
 |-------------|---------|----------------------------------|
 | idCliente   | PK      | Identificador único              |
@@ -542,11 +544,11 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | email       | String  | Correo electrónico               |
 | direccion   | String  | Dirección opcional               |
 | telefono    | String  | Teléfono opcional                |
-
+```
 ---
 
 ### Clase: Pedido
-
+```
 | Atributo       | Tipo      | Descripción                               |
 |----------------|-----------|-------------------------------------------|
 | idPedido       | PK        | Identificador único                       |
@@ -556,11 +558,11 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | estado         | String    | pendiente / pagado / cancelado            |
 | estadoPago     | String    | aprobado / rechazado / pendiente          |
 | referenciaPago | String    | ID de pasarela (Webhook)                  |
-
+```
 ---
 
 ### Clase: ItemPedido
-
+```
 | Atributo     | Tipo            | Descripción                                      |
 |--------------|-----------------|--------------------------------------------------|
 | idItem       | PK              | Identificador único del ítem                     |
@@ -569,7 +571,7 @@ A continuación se presenta el modelo conceptual del dominio de AUMA, utilizando
 | cantidad     | Number          | Cantidad solicitada                              |
 | precioUnit   | Number          | Precio unitario al momento de la compra          |
 | subtotal     | Number          | precioUnit * cantidad                            |
-
+```
 ---
 # 7. Conclusión
 
