@@ -100,11 +100,11 @@ Ofrecer una línea permanente de velas que represente la identidad de AUMA media
 
 ## Público objetivo
 
-(Completar)
+Personas que buscan incorporar pequeños rituales de bienestar a su rutina diaria mediante aromas que transmitan calma, calidez y equilibrio. También está orientada a quienes valoran los productos artesanales, el diseño minimalista y los regalos con significado.
 
 ## Posicionamiento
 
-(Completar)
+Colección permanente de AUMA Studio que representa la esencia de la marca. Se posiciona como una línea de velas artesanales de alta calidad, elaboradas cuidadosamente a mano, con una identidad visual coherente y una propuesta sensorial basada en experiencias cotidianas más que en tendencias pasajeras.
 
 ---
 
@@ -152,15 +152,16 @@ Río Grande, Tierra del Fuego, Argentina.
 
 ## Vida útil
 
-(Completar)
+Se recomienda utilizar el producto dentro de los 24 meses posteriores a su fabricación, almacenándolo en un lugar fresco, seco y protegido de la luz solar directa para conservar las propiedades de la fragancia.
 
 ## Peso aproximado del producto
 
-(Completar)
+310gr.
 
 ## Dimensiones
 
-(Completar)
+- Diámetro: 6,5 cm
+- Altura: 8 cm
 
 ## Etiqueta
 
@@ -214,39 +215,69 @@ ESS-HOG
 
 Cookies
 
-### Perfil aromático
+### Información aromática
 
 #### Familia olfativa
 
-(Completar)
+Gourmand
 
 #### Concepto
 
-(Completar)
+Un aroma que evoca el calor del hogar y la tranquilidad de los momentos simples. Inspirado en el perfume de galletas recién horneadas, invita a bajar el ritmo y disfrutar del presente.
 
 #### Descripción oficial
 
-(Completar)
+HOGAR combina notas dulces y cálidas que recuerdan a una cocina encendida, una tarde de invierno y el placer de compartir un momento tranquilo. Es una fragancia envolvente, reconfortante y familiar.
 
 #### Frase oficial
 
-(Completar)
+Volvé a lo simple, volvé a vos.
 
 #### Notas de salida
 
-(Completar)
+Manteca · Azúcar · Masa recién horneada
 
 #### Notas de corazón
 
-(Completar)
+Galletas dulces · Vainilla suave
 
 #### Notas de fondo
 
-(Completar)
+Caramelo · Almizcles suaves
 
 ### Observaciones
 
-(Completar)
+Fragancia cálida de intensidad media/alta. Ideal para ambientes sociales, salas de estar y espacios donde se busca generar sensación de hogar y confort.
+
+### Identidad de la fragancia
+
+#### Emoción principal
+
+Calidez.
+
+#### Sensación que transmite
+
+La tranquilidad de volver a casa, el aroma de algo recién horneado y la comodidad de los pequeños momentos compartidos.
+
+#### Momento recomendado
+
+Tardes tranquilas, días fríos, lectura, reuniones en casa o cualquier momento en el que se busque crear una sensación de hogar.
+
+#### Intensidad aromática
+
+Media / Alta.
+
+#### Estacionalidad
+
+Ideal durante otoño e invierno, aunque puede disfrutarse todo el año.
+
+#### Ambientes recomendados
+
+Living, comedor, cocina, espacios compartidos y rincones de lectura.
+
+#### Personalidad
+
+Cálida, acogedora, familiar y reconfortante.
 
 ---
 
