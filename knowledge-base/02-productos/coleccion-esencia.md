@@ -221,18 +221,6 @@ Cookies
 
 Gourmand
 
-#### Concepto
-
-Un aroma que evoca el calor del hogar y la tranquilidad de los momentos simples. Inspirado en el perfume de galletas recién horneadas, invita a bajar el ritmo y disfrutar del presente.
-
-#### Descripción oficial
-
-HOGAR combina notas dulces y cálidas que recuerdan a una cocina encendida, una tarde de invierno y el placer de compartir un momento tranquilo. Es una fragancia envolvente, reconfortante y familiar.
-
-#### Frase oficial
-
-Volvé a lo simple, volvé a vos.
-
 #### Notas de salida
 
 Manteca · Azúcar · Masa recién horneada
@@ -245,11 +233,23 @@ Galletas dulces · Vainilla suave
 
 Caramelo · Almizcles suaves
 
+### Identidad de la fragancia
+
+#### Concepto
+
+Un aroma que evoca el calor del hogar y la tranquilidad de los momentos simples. Inspirado en el perfume de galletas recién horneadas, invita a bajar el ritmo y disfrutar del presente.
+
+#### Descripción oficial
+
+HOGAR combina notas dulces y cálidas que recuerdan a una cocina encendida, una tarde de invierno y el placer de compartir un momento tranquilo. Es una fragancia envolvente, reconfortante y familiar.
+
+#### Frase oficial
+
+Volvé a lo simple, volvé a vos.
+
 ### Observaciones
 
 Fragancia cálida de intensidad media/alta. Ideal para ambientes sociales, salas de estar y espacios donde se busca generar sensación de hogar y confort.
-
-### Identidad de la fragancia
 
 #### Emoción principal
 
@@ -283,7 +283,98 @@ Cálida, acogedora, familiar y reconfortante.
 
 ## Variante V02
 
-*(Repetir la misma estructura para ABRIGO)*
+### Código interno
+
+ESS-ABR
+
+### ID interno
+
+ess-abr
+
+### Nombre comercial
+
+ABRIGO
+
+### Estado comercial
+
+Disponible
+
+### SKU
+
+ESS-ABR
+
+### Fragancia
+
+Vainilla & Caramelo
+
+### Información aromática
+
+#### Familia olfativa
+
+Gourmand.
+
+#### Descripción olfativa del proveedor
+
+Aromática intensa con refuerzo en la salida por una nota edulcorada.
+
+#### Notas de salida
+
+No especificadas por el proveedor.
+
+#### Notas de corazón
+
+No especificadas por el proveedor.
+
+#### Notas de fondo
+
+No especificadas por el proveedor.
+
+### Identidad de la fragancia
+
+#### Concepto
+
+Una fragancia envolvente que invita a bajar el ritmo y permanecer un poco más en esos momentos de calma que hacen bien.
+
+#### Descripción oficial
+
+ABRIGO combina la suavidad de la vainilla con la dulzura del caramelo para crear una atmósfera cálida y acogedora. Es una fragancia intensa, pensada para acompañar los momentos de descanso y convertir cualquier espacio en un refugio.
+
+#### Frase oficial
+
+Quedate un rato más.
+
+### Observaciones
+
+Fragancia gourmand de intensidad alta. Ideal para crear ambientes cálidos, relajados y confortables.
+
+#### Emoción principal
+
+Abrigo.
+
+#### Sensación que transmite
+
+La comodidad de un espacio cálido donde no hay apuro y todo invita a quedarse un rato más.
+
+#### Momento recomendado
+
+Tardes frías, noches tranquilas, lectura, películas o cualquier momento dedicado al descanso.
+
+#### Intensidad aromática
+
+Alta.
+
+#### Estacionalidad
+
+Ideal durante otoño e invierno, aunque puede disfrutarse durante todo el año.
+
+#### Ambientes recomendados
+
+Living, dormitorio, escritorio y espacios de descanso.
+
+#### Personalidad
+
+Dulce, cálida, envolvente y serena.
+
 
 ---
 
