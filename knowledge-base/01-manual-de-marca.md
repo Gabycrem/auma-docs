@@ -22,8 +22,8 @@ tags:
   - comunicación
 
 description: >
-Documento oficial que define la identidad, propósito, valores y posicionamiento de AUMA Studio.
-
+  Documento oficial que define la identidad visual de AUMA Studio y las reglas
+  para su correcta aplicación en cualquier soporte.
 ---
 
 
