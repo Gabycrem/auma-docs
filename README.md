@@ -1,73 +1,159 @@
-# AUMA — Documentación del Proyecto
+# AUMA — Documentación Oficial
 
-Este repositorio contiene **toda la documentación oficial del proyecto AUMA**, incluyendo análisis del negocio, ingeniería de requerimientos, modelado del sistema, arquitectura técnica, planificación, pruebas y manuales.
+Este repositorio constituye la **fuente oficial de documentación de AUMA Studio**.
 
-AUMA es una marca de productos aromáticos y de bienestar elaborados de forma artesanal, con una estética boho-natural y un enfoque en la calma, la energía suave y la experiencia sensorial del usuario.  
-Este repositorio organiza y consolida su ecosistema digital desde el punto de vista funcional y técnico.
+Reúne tanto la documentación técnica del ecosistema de software como la documentación estratégica del negocio, convirtiéndose en la **Single Source of Truth (SSoT)** del proyecto.
+
+AUMA es una marca argentina de productos aromáticos y de bienestar elaborados artesanalmente, con una identidad visual minimalista, una comunicación cálida y un enfoque en la experiencia sensorial.
 
 ---
 
-## Estructura del repositorio
+# Estructura del repositorio
 
-Toda la documentación se encuentra dentro de la carpeta:
-`/docs`
+El repositorio se divide en dos grandes áreas.
 
+## 📚 Knowledge Base
+
+Ubicada en:
+
+```text
+/knowledge-base
+```
+
+Contiene toda la documentación relacionada con la marca y el negocio.
 
 Incluye:
 
-- Visión y alcance del negocio  
-- Relevamiento y análisis  
-- Ingeniería de requerimientos  
-- Modelado del sistema  
-- Arquitectura lógica y física  
-- Plan de pruebas y despliegue  
-- Manual de usuario  
-- Manual técnico  
-- Roadmap, mantenimiento y SLA  
+* Manual de Marca.
+* Sistema Visual.
+* Catálogo de Productos.
+* Estrategia de Redes Sociales.
+* Recursos de Producción.
+* Roadmap del negocio.
+* Marketing.
+* Operaciones.
 
-Para navegar de forma ordenada toda la documentación, consultá:
-
-**`/docs/README.md`** (índice general)
+Su objetivo es centralizar todo el conocimiento estratégico de AUMA.
 
 ---
 
-## Repositorios del ecosistema AUMA
+## 💻 Documentación Técnica
 
-El proyecto está organizado en repos separados para favorecer modularidad y escalabilidad:
+Ubicada en:
 
-- **Documentación:**  
-  https://github.com/Gabycrem/auma-docs  
-- **Frontend (React SPA – AWS Amplify):**  
-  https://github.com/Gabycrem/auma-frontend  
-- **Backend (API Serverless – AWS Lambda + DynamoDB):**  
-  https://github.com/Gabycrem/auma-backend  
+```text
+/docs
+```
 
-Cada repositorio incluye su propio README técnico.
+Contiene toda la documentación del desarrollo del ecosistema digital.
+
+Incluye:
+
+* Visión y alcance.
+* Ingeniería de requerimientos.
+* Modelado.
+* Arquitectura.
+* Casos de uso.
+* Roadmap técnico.
+* Planes de prueba.
+* Manuales.
+* Despliegue.
+
+Para navegar esta documentación consultar:
+
+```text
+/docs/README.md
+```
 
 ---
 
-## Objetivo de este repositorio
+# Assets
 
-- Ser la **fuente única de verdad (SSoT)** del proyecto AUMA  
-- Mantener **trazabilidad completa** del ciclo de desarrollo  
-- Documentar decisiones clave de negocio, arquitectura y diseño  
-- Facilitar el onboarding de nuevas personas al proyecto  
-- Estandarizar entregables para auditoría, planificación y mantenimiento  
+La carpeta
+
+```text
+/assets
+```
+
+reúne todos los recursos visuales utilizados por la documentación.
+
+Ejemplos:
+
+* logos
+* paleta de colores
+* mockups
+* moodboards
+* packaging
+* fotografías de producto
 
 ---
 
-## Créditos
+# Ecosistema AUMA
+
+El proyecto se encuentra dividido en distintos repositorios para favorecer la modularidad.
+
+## Documentación
+
+https://github.com/Gabycrem/auma-docs
+
+## Frontend
+
+https://github.com/Gabycrem/auma-frontend
+
+React + AWS Amplify.
+
+## Backend
+
+https://github.com/Gabycrem/auma-backend
+
+AWS Lambda + DynamoDB.
+
+Cada repositorio mantiene su propia documentación técnica.
+
+---
+
+# Objetivos del repositorio
+
+* Mantener una única fuente oficial de conocimiento.
+* Documentar decisiones de negocio y tecnología.
+* Mantener trazabilidad completa.
+* Facilitar el onboarding de colaboradores.
+* Estandarizar procesos.
+* Servir como base de conocimiento para herramientas de IA.
+* Facilitar la evolución del proyecto a largo plazo.
+
+---
+
+# Convenciones
+
+Todo documento del repositorio debe:
+
+* Tener Front Matter.
+* Tener un objetivo claramente definido.
+* Tener un alcance explícito.
+* Evitar duplicar información.
+* Referenciar otros documentos cuando corresponda.
+* Mantener historial de cambios.
+
+---
+
+# Créditos
 
 Documentación mantenida por:
 
-**Gabycrem®**  
-Desarrollo, organización y dirección del proyecto AUMA.
+**Nazarena Macre**
 
-- GitHub: [Gabycrem](https://github.com/Gabycrem)  
-- LinkedIn: [Nazarena Macre](https://www.linkedin.com/in/macrenazarena/)  
+GitHub:
+https://github.com/Gabycrem
+
+LinkedIn:
+https://www.linkedin.com/in/macrenazarena/
 
 ---
 
 <div align="center">
-<code>Siempre construyendo, siempre aprendiendo. -- GABYCREM® </code>
+
+`Siempre construyendo, siempre aprendiendo. — GABYCREM®`
+
 </div>
+
