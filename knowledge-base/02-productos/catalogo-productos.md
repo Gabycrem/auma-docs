@@ -89,8 +89,8 @@ Cuando dichos documentos se encuentren disponibles, estas referencias deberán c
 
 # 3. Documentos relacionados
 
-* [Manual de Marca](manual-de-marca.md)
-* [Sistema Visual](sistema-visual.md)
+* [Manual de Marca](../01-marca/manual-de-marca.md)
+* [Sistema Visual](../01-marca/sistema-visual.md)
 * Recursos de Producción
 
 ---
