@@ -77,6 +77,7 @@ Todos los documentos deberán seguir esta estructura:
 * Documentos relacionados
 * Historial
 
+La estructura de los documentos es obligatoria. El contenido puede evolucionar; la estructura debe permanecer consistente para facilitar la navegación, el mantenimiento y el consumo por herramientas de inteligencia artificial.
 ---
 
 ## Escritura
