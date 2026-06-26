@@ -1,4 +1,3 @@
-```
 ---
 title: Manual de Marca
 document: manual-de-marca
@@ -24,7 +23,7 @@ tags:
 
 description: >
 Documento oficial que define la identidad, propósito, valores y posicionamiento de AUMA Studio.
-```
+
 ---
 
 
