@@ -18,14 +18,14 @@ language: es-AR
 
 tags:
 
-* marketing
-* contenidos
-* biblioteca
-* redes-sociales
+- marketing
+- contenidos
+- biblioteca
+- redes-sociales
 
 description: >
-Biblioteca oficial de activos de contenido reutilizables de AUMA Studio. Define los formatos de contenido disponibles para planificar campañas y publicaciones de manera consistente.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Biblioteca oficial de activos de contenido reutilizables de AUMA Studio. Define los formatos de contenido disponibles para planificar campañas y publicaciones de manera consistente.
+---
 
 # Biblioteca de Contenidos
 
