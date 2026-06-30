@@ -1,43 +1,62 @@
 ---
-
-title: Historias de Instagram
-document: historias-instagram
+title: Embudo de Contenidos
+document: embudo-contenidos
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
 
+audience:
+
+- marketing
+- content-creators
+- ai-agent
+
 tags:
 
-- instagram
-- historias
 - marketing
-- contenido
+- embudo
+- contenidos
+- estrategia
+
+related_documents:
+
+- estrategia-redes-sociales.md
+- biblioteca-contenidos.md
+- historias-instagram.md
+- calendario-editorial.md
+- metricas.md
+
+references: []
 
 description: >
-  Documento oficial que define los tipos de historias de Instagram utilizados por AUMA Studio, sus objetivos y criterios de uso.
+    Documento oficial que define el recorrido estratégico de los contenidos
+    dentro del proceso de descubrimiento, confianza, conversión y fidelización
+    de AUMA Studio.
 ---
 
-# Historias de Instagram
+# Embudo de Contenidos
 
-> Biblioteca oficial de recursos para la publicación de historias de Instagram de AUMA Studio.
+> Documento oficial que define cómo se utilizan los distintos tipos de contenido a lo largo del recorrido del cliente dentro de la estrategia de comunicación de AUMA Studio.
 
 ---
 
 # Objetivo
 
-Documentar los distintos tipos de historias que forman parte de la estrategia de comunicación de AUMA Studio.
+Definir el recorrido estratégico de los contenidos utilizados por AUMA Studio para acompañar a una persona desde el primer contacto con la marca hasta su fidelización como cliente.
 
-Cada tipo de historia constituye un recurso reutilizable que puede adaptarse según el momento, la campaña o la disponibilidad de contenido.
+Este documento constituye la referencia para seleccionar el tipo de contenido más adecuado según el objetivo de comunicación de cada publicación.
 
 ---
 
@@ -45,26 +64,29 @@ Cada tipo de historia constituye un recurso reutilizable que puede adaptarse seg
 
 Este documento incluye:
 
-* Tipos de historias.
-* Objetivos de cada formato.
-* Frecuencia sugerida.
-* CTA recomendados.
-* Buenas prácticas.
+- etapas del embudo de contenidos;
+- objetivos de cada etapa;
+- necesidades del usuario;
+- activos de contenido recomendados;
+- llamados a la acción sugeridos;
+- indicadores generales de evaluación.
 
 No incluye:
 
-* Historias específicas.
-* Campañas.
-* Calendarios.
-* Copys.
+- planificación editorial;
+- campañas específicas;
+- publicaciones concretas;
+- copys;
+- métricas detalladas;
+- formatos de contenido.
 
 ---
 
 # Índice
 
 1. Principios generales
-2. Biblioteca de historias
-3. Buenas prácticas
+2. Etapas del embudo
+3. Resumen del embudo
 4. Referencias
 5. Documentos relacionados
 6. Historial de cambios
@@ -73,259 +95,194 @@ No incluye:
 
 # 1. Principios generales
 
-Las historias de Instagram constituyen el principal canal de comunicación espontánea de AUMA Studio.
+No todo el contenido publicado por AUMA Studio persigue el mismo objetivo.
 
-Su objetivo no es únicamente vender, sino mantener una presencia cercana, mostrar el detrás de escena del emprendimiento y fortalecer la relación con la comunidad.
+Cada publicación cumple una función específica dentro del recorrido del cliente y contribuye a avanzar en alguna etapa del proceso de descubrimiento, confianza, educación, conversión o fidelización.
 
-Las historias deben sentirse naturales, auténticas y cotidianas.
+Una estrategia equilibrada combina distintos tipos de contenido para acompañar a la comunidad durante todo su recorrido, priorizando la construcción de relaciones a largo plazo por sobre la venta inmediata.
 
----
-
-# 2. Biblioteca de historias
+La selección de los activos de contenido deberá responder siempre al objetivo de comunicación de cada etapa del embudo y mantenerse alineada con la Estrategia de Redes Sociales.
 
 ---
 
-## HI-001
+# 2. Etapas del embudo
 
-### Nombre
+El embudo de contenidos de AUMA Studio se compone de cinco etapas.
 
-Disponibilidad de productos.
+Cada una responde a un objetivo de comunicación diferente y utiliza activos específicos de la Biblioteca de Contenidos para acompañar el proceso de decisión del cliente.
+
+Una misma publicación puede contribuir a más de una etapa del embudo; sin embargo, al momento de planificarla deberá definirse cuál es su objetivo principal.
+
+---
+
+## Descubrimiento
 
 ### Objetivo
 
-Conversión.
+Dar a conocer la marca.
 
-### Cuándo utilizarla
+### Necesidad del usuario
 
-Cuando exista stock disponible para la venta.
+Descubrir AUMA y comprender rápidamente qué ofrece.
 
-### Formato recomendado
+### Activos recomendados
 
-Fotografía o video breve.
+- BC-002 · Ritual cotidiano
+- BC-010 · Detrás de escena
+- HI-008 · Inspiración cotidiana
 
-### CTA sugerido
+### CTA sugeridos
 
-"Escribime por DM si querés la tuya."
+- Seguir la cuenta.
+- Compartir la publicación.
+- Descubrir más contenido.
+
+### Indicadores sugeridos
+
+- Alcance.
+- Compartidos.
+- Nuevos seguidores.
 
 ---
 
-## HI-002
-
-### Nombre
-
-Proceso artesanal.
+## Confianza
 
 ### Objetivo
 
-Generar confianza.
+Humanizar la marca y demostrar autenticidad.
 
-### Cuándo utilizarla
+### Necesidad del usuario
 
-Durante cualquier etapa del proceso de producción.
+Confiar en quien está detrás del emprendimiento.
 
-### Formato recomendado
+### Activos recomendados
 
-Video espontáneo.
+- BC-003 · Proceso artesanal
+- BC-005 · Preparación de pedidos
+- BC-008 · Testimonios
+- HI-002 · Proceso artesanal
+- HI-003 · Preparación de pedidos
+- HI-009 · Clientes
 
-### CTA sugerido
+### CTA sugeridos
 
-"Así nace cada vela."
+- Responder la historia.
+- Hacer una consulta.
+- Compartir la experiencia.
+
+### Indicadores sugeridos
+
+- Respuestas.
+- Mensajes recibidos.
+- Guardados.
 
 ---
 
-## HI-003
-
-### Nombre
-
-Preparación de pedidos.
+## Educación
 
 ### Objetivo
 
-Generar confianza.
+Resolver dudas y reducir objeciones.
 
-### Cuándo utilizarla
+### Necesidad del usuario
 
-Al preparar pedidos reales.
+Comprender mejor el producto antes de comprar.
 
-### Formato recomendado
+### Activos recomendados
 
-Video corto.
+- BC-004 · Consejos de uso
+- BC-007 · Preguntas frecuentes
+- BC-009 · Comparativa de fragancias
 
-### CTA sugerido
+### CTA sugeridos
 
-"Gracias por acompañar este proyecto."
+- Guardar la publicación.
+- Compartir.
+- Enviar una consulta.
+
+### Indicadores sugeridos
+
+- Guardados.
+- Compartidos.
+- Consultas.
 
 ---
 
-## HI-004
-
-### Nombre
-
-Encuestas.
+## Conversión
 
 ### Objetivo
 
-Interacción.
+Generar ventas.
 
-### Cuándo utilizarla
+### Necesidad del usuario
 
-Para conocer preferencias de la comunidad.
+Conocer el producto y sentirse listo para comprar.
 
-### Formato recomendado
+### Activos recomendados
 
-Sticker de encuesta.
+- BC-001 · Presentación de una fragancia
+- BC-006 · Packaging
+- HI-001 · Disponibilidad de productos
+- HI-010 · Novedades
 
-### Ejemplos
+### CTA sugeridos
 
-* Dulce o fresco.
-* ¿Qué aroma elegirías?
-* ¿De día o de noche?
+- Escribime por DM.
+- Consultá disponibilidad.
+- Reservá la tuya.
+
+### Indicadores sugeridos
+
+- Mensajes privados.
+- Ventas.
+- Conversión.
 
 ---
 
-## HI-005
-
-### Nombre
-
-Caja de preguntas.
+## Fidelización
 
 ### Objetivo
 
-Conversación.
+Mantener el vínculo después de la compra.
 
-### Cuándo utilizarla
+### Necesidad del usuario
 
-Cuando se busque conocer opiniones o generar participación.
+Sentirse parte de la comunidad AUMA.
 
-### Formato recomendado
+### Activos recomendados
 
-Sticker de preguntas.
+- BC-008 · Testimonios
+- HI-009 · Clientes
+- HI-005 · Caja de preguntas
 
-### Ejemplos
+### CTA sugeridos
 
-* ¿Qué momento del día disfrutarías con una vela?
-* ¿Qué fragancia te gustaría ver en AUMA?
-* ¿Qué ritual no puede faltar en tu casa?
+- Compartir la experiencia.
+- Recomendar la marca.
+- Participar de la comunidad.
 
----
+### Indicadores sugeridos
 
-## HI-006
-
-### Nombre
-
-Recordatorio de publicaciones.
-
-### Objetivo
-
-Incrementar el alcance del feed.
-
-### Cuándo utilizarla
-
-Después de publicar un carrusel o un Reel.
-
-### Formato recomendado
-
-Compartir una diapositiva o fragmento acompañado de una invitación a ver la publicación completa.
+- Recompras.
+- Recomendaciones.
+- Menciones.
+- Historias etiquetadas.
 
 ---
 
-## HI-007
+# 3. Resumen del embudo
 
-### Nombre
+La siguiente tabla resume la relación entre las etapas del recorrido del cliente y los principales activos de contenido recomendados para cada una.
 
-Detrás de escena.
+Su objetivo es servir como referencia rápida durante la planificación de publicaciones y campañas.
 
-### Objetivo
-
-Humanizar la marca.
-
-### Cuándo utilizarla
-
-Durante la jornada de trabajo.
-
-### Formato recomendado
-
-Videos espontáneos o fotografías sin producción.
-
----
-
-## HI-008
-
-### Nombre
-
-Inspiración cotidiana.
-
-### Objetivo
-
-Conectar emocionalmente.
-
-### Cuándo utilizarla
-
-Cuando un momento cotidiano represente el universo de AUMA.
-
-### Formato recomendado
-
-Fotografía o video simple.
-
-Ejemplos:
-
-* Una taza de café.
-* Un libro.
-* Lluvia.
-* Luz entrando por la ventana.
-* Flores secas.
-
----
-
-## HI-009
-
-### Nombre
-
-Clientes.
-
-### Objetivo
-
-Generar prueba social.
-
-### Cuándo utilizarla
-
-Cuando un cliente comparta contenido o deje una reseña.
-
-### Formato recomendado
-
-Repost o captura.
-
----
-
-## HI-010
-
-### Nombre
-
-Novedades.
-
-### Objetivo
-
-Informar.
-
-### Cuándo utilizarla
-
-Lanzamientos, cambios, nuevos productos o anuncios importantes.
-
-### Formato recomendado
-
-Imagen o video breve.
-
----
-
-# 3. Buenas prácticas
-
-* Priorizar contenido auténtico sobre contenido excesivamente producido.
-* Mantener una estética coherente con la identidad visual de AUMA.
-* Alternar historias de venta con historias de valor.
-* Evitar secuencias excesivamente largas.
-* Utilizar stickers interactivos cuando aporten valor.
-* Responder las interacciones de la comunidad en el menor tiempo posible.
-* No promocionar productos que aún no estén disponibles para la venta.
+| Etapa | Objetivo principal | Activos recomendados |
+|--------|--------------------|----------------------|
+| Descubrimiento | Dar a conocer la marca | BC-002 · BC-010 · HI-008 |
+| Confianza | Generar confianza | BC-003 · BC-005 · BC-008 · HI-002 · HI-003 · HI-009 |
+| Educación | Resolver dudas | BC-004 · BC-007 · BC-009 |
+| Conversión | Generar ventas | BC-001 · BC-006 · HI-001 · HI-010 |
+| Fidelización | Mantener el vínculo | BC-008 · HI-005 · HI-009 |
 
 ---
 
@@ -333,23 +290,26 @@ Imagen o video breve.
 
 Este documento depende de la siguiente documentación:
 
-* **Referencia:** [Instagram](instagram.md)
-* **Referencia:** [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
-* **Referencia:** [Criterios Editoriales](criterios-editoriales.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+
+Las definiciones de los activos de contenido utilizados en este documento se encuentran documentadas en la Biblioteca de Contenidos y en Historias de Instagram.
 
 ---
 
 # 5. Documentos relacionados
 
-* [Biblioteca de Contenidos](biblioteca-contenidos.md)
-* [Embudo de Contenidos](embudo-contenidos.md)
-* [Calendario Editorial](calendario-editorial.md)
+- [Calendario Editorial](calendario-editorial.md)
+- [Instagram](instagram.md)
+- [Criterios Editoriales](criterios-editoriales.md)
+- [Métricas](metricas.md)
 
 ---
 
 # 6. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-* Creación del documento.
-* Definición de la biblioteca oficial de historias de Instagram de AUMA Studio.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|-----------------------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Actualización al estándar documental v2, mejora de la estructura del documento y alineación con la Biblioteca de Contenidos y la Estrategia de Redes Sociales. | Nazarena Macre |
+| 1.0 | 2026-06-26 | Creación del documento. Definición del embudo oficial de contenidos de AUMA Studio. | Nazarena Macre |

@@ -1,43 +1,63 @@
 ---
-
-title: Biblioteca de Contenidos
-document: biblioteca-contenidos
+title: Instagram
+document: instagram
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
-created: 2026-06-26
-last_updated: 2026-06-26
+created: 2026-06-29
+last_updated: 2026-06-29
 
 language: es-AR
 
-tags:
+audience:
 
 - marketing
-- contenidos
-- biblioteca
+- community-manager
+- ai-agent
+
+tags:
+
+- instagram
 - redes-sociales
+- marketing
+- canal
+
+related_documents:
+
+- estrategia-redes-sociales.md
+- criterios-editoriales.md
+- biblioteca-contenidos.md
+- historias-instagram.md
+- calendario-editorial.md
+- ../01-marca/manual-de-marca.md
+- ../01-marca/sistema-visual.md
+
+references: []
 
 description: >
-  Biblioteca oficial de activos de contenido reutilizables de AUMA Studio. Define los formatos de contenido disponibles para planificar campañas y publicaciones de manera consistente.
+    Documento oficial que define la administración, organización y operación
+    del canal oficial de Instagram de AUMA Studio.
 ---
 
-# Biblioteca de Contenidos
+# Instagram
 
-> Catálogo oficial de activos de contenido reutilizables para la comunicación de AUMA Studio.
+> Manual operativo del canal oficial de Instagram de AUMA Studio.
 
 ---
 
 # Objetivo
 
-Centralizar los distintos tipos de contenido que forman parte de la estrategia de comunicación de AUMA Studio.
+Documentar la configuración, organización y criterios de administración de la cuenta oficial de Instagram de AUMA Studio.
 
-Cada activo representa un formato reutilizable que podrá adaptarse a distintos productos, campañas o momentos del año sin modificar su estructura principal.
+Este documento constituye la referencia para cualquier persona o agente responsable de gestionar el canal.
 
 ---
 
@@ -45,516 +65,169 @@ Cada activo representa un formato reutilizable que podrá adaptarse a distintos 
 
 Este documento incluye:
 
-* Biblioteca de activos de contenido.
-* Objetivos de cada formato.
-* Formatos recomendados.
-* Etapa del embudo.
-* Nivel de producción.
-* Reutilización.
+- objetivo del canal;
+- información institucional del perfil;
+- organización de la cuenta;
+- criterios de administración;
+- gestión de publicaciones;
+- gestión de la comunidad;
+- buenas prácticas operativas.
 
 No incluye:
 
-* Calendarios editoriales.
-* Campañas específicas.
-* Copys.
-* Publicaciones concretas.
+- estrategia de marketing;
+- criterios editoriales;
+- planificación de contenidos;
+- campañas específicas;
+- definición de formatos de contenido;
+- comunicación de productos o fragancias.
 
 ---
 
 # Índice
 
-1. Estructura de un activo
-2. Biblioteca de contenidos
-3. Referencias
-4. Documentos relacionados
-5. Historial de cambios
+1. Objetivo del canal
+2. Perfil institucional
+3. Organización del perfil
+4. Gestión de publicaciones
+5. Gestión de la comunidad
+6. Buenas prácticas
+7. Referencias
+8. Documentos relacionados
+9. Historial de cambios
 
 ---
 
-# 1. Estructura de un activo
+# 1. Objetivo del canal
 
-Cada activo de contenido se documenta utilizando la siguiente estructura:
+Instagram constituye el principal canal digital de comunicación y ventas de AUMA Studio.
 
-* Código
-* Nombre
-* Objetivo
-* Pilar de contenido
-* Etapa del embudo
-* Formato recomendado
-* Producción requerida
-* Frecuencia sugerida
-* Reutilizable
-* Descripción
-* CTA sugerido
+Su finalidad es:
+
+- construir marca;
+- generar confianza;
+- presentar los productos;
+- fortalecer la relación con la comunidad;
+- generar consultas comerciales;
+- convertir consultas en ventas.
 
 ---
 
-# 2. Biblioteca de contenidos
+# 2. Perfil institucional
+
+## Nombre de usuario
+
+@aumastudio.ar
+
+## Nombre visible
+
+AUMA Studio
+
+## Tipo de cuenta
+
+Cuenta profesional.
+
+## Canal principal de contacto
+
+Mensajes directos (DM).
+
+## Cobertura
+
+Río Grande, Tierra del Fuego.
+
+## Enlaces
+
+Los enlaces disponibles deberán mantenerse actualizados y dirigir únicamente a canales oficiales de AUMA.
+
+La información específica de la biografía deberá mantenerse alineada con el posicionamiento definido en el Manual de Marca.
 
 ---
 
-## BC-001
+# 3. Organización del perfil
 
-### Nombre
+La organización del perfil deberá transmitir una imagen coherente y profesional.
 
-Presentación de una fragancia.
+Se deberán mantener los siguientes criterios:
 
-### Objetivo
+- identidad visual consistente;
+- fotografías de producción propia;
+- portadas coherentes entre sí;
+- información actualizada;
+- historias destacadas organizadas;
+- publicaciones alineadas con la estrategia de comunicación.
 
-Conversión.
+La definición de la identidad visual se documenta en:
 
-### Pilar
-
-Producto.
-
-### Etapa del embudo
-
-Conversión.
-
-### Formato recomendado
-
-Carrusel.
-
-### Producción requerida
-
-Baja.
-
-### Frecuencia sugerida
-
-Alta.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Presenta una fragancia de la colección destacando la experiencia que transmite, sus características principales y el momento ideal para disfrutarla.
-
-### CTA sugerido
-
-Invitar a consultar disponibilidad por mensaje privado.
+- [Sistema Visual](../01-marca/sistema-visual.md)
 
 ---
 
-## BC-002
+# 4. Gestión de publicaciones
 
-### Nombre
+Las publicaciones deberán responder a la estrategia general de comunicación de AUMA.
 
-Ritual cotidiano.
+La planificación, producción y organización de los contenidos se documenta en:
 
-### Objetivo
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Calendario Editorial](calendario-editorial.md)
+- [Criterios Editoriales](criterios-editoriales.md)
 
-Inspiración.
+La gestión de historias se documenta en:
 
-### Pilar
-
-Ritual.
-
-### Etapa del embudo
-
-Descubrimiento.
-
-### Formato recomendado
-
-Reel o fotografía.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Alta.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Muestra cómo integrar una vela AUMA en momentos cotidianos para transformar pequeños espacios y rutinas.
-
-### CTA sugerido
-
-Invitar a imaginar ese momento en casa.
+- [Historias de Instagram](historias-instagram.md)
 
 ---
 
-## BC-003
+# 5. Gestión de la comunidad
 
-### Nombre
+Toda interacción con la comunidad deberá mantener el tono definido por la identidad verbal de AUMA.
 
-Proceso artesanal.
+Como criterio general:
 
-### Objetivo
-
-Generar confianza.
-
-### Pilar
-
-Proceso.
-
-### Etapa del embudo
-
-Confianza.
-
-### Formato recomendado
-
-Reel.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Media.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Mostrar una parte real del proceso artesanal de producción para reforzar la autenticidad de la marca.
-
-### CTA sugerido
-
-Invitar a conocer el trabajo detrás de cada vela.
+- responder consultas con rapidez;
+- mantener un trato cercano y respetuoso;
+- agradecer menciones y publicaciones de clientes;
+- resolver dudas antes de intentar vender;
+- evitar respuestas automáticas que contradigan la identidad de la marca.
 
 ---
 
-## BC-004
+# 6. Buenas prácticas
 
-### Nombre
+La administración de la cuenta deberá respetar los siguientes criterios:
 
-Consejos de uso.
-
-### Objetivo
-
-Educar.
-
-### Pilar
-
-Educación.
-
-### Etapa del embudo
-
-Educación.
-
-### Formato recomendado
-
-Carrusel.
-
-### Producción requerida
-
-Baja.
-
-### Frecuencia sugerida
-
-Media.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Contenido educativo relacionado con el uso correcto, cuidado y mantenimiento de las velas.
-
-### CTA sugerido
-
-Guardar la publicación para futuras consultas.
+- mantener la información del perfil actualizada;
+- publicar únicamente contenido alineado con la estrategia definida;
+- evitar eliminar publicaciones sin una justificación documentada;
+- responder mensajes y comentarios de manera consistente;
+- preservar la coherencia visual del perfil;
+- priorizar la calidad del contenido por sobre la frecuencia de publicación.
 
 ---
 
-## BC-005
-
-### Nombre
-
-Preparación de pedidos.
-
-### Objetivo
-
-Generar confianza.
-
-### Pilar
-
-Proceso.
-
-### Etapa del embudo
-
-Confianza.
-
-### Formato recomendado
-
-Reel o historias.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Variable.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Mostrar el proceso de empaquetado y preparación de pedidos reales para reforzar la experiencia de compra.
-
-### CTA sugerido
-
-Invitar a escribir por mensaje privado para realizar un pedido.
-
----
-
-## BC-006
-
-### Nombre
-
-Packaging.
-
-### Objetivo
-
-Generar valor percibido.
-
-### Pilar
-
-Producto.
-
-### Etapa del embudo
-
-Conversión.
-
-### Formato recomendado
-
-Carrusel.
-
-### Producción requerida
-
-Baja.
-
-### Frecuencia sugerida
-
-Media.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Destacar la presentación del producto y la experiencia de apertura del packaging.
-
-### CTA sugerido
-
-Consultar disponibilidad.
-
----
-
-## BC-007
-
-### Nombre
-
-Preguntas frecuentes.
-
-### Objetivo
-
-Resolver objeciones.
-
-### Pilar
-
-Educación.
-
-### Etapa del embudo
-
-Educación.
-
-### Formato recomendado
-
-Carrusel o historias.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Variable.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Responder consultas habituales de clientes antes de que aparezcan en mensajes privados.
-
-### CTA sugerido
-
-Invitar a realizar nuevas consultas.
-
----
-
-## BC-008
-
-### Nombre
-
-Testimonios.
-
-### Objetivo
-
-Generar confianza.
-
-### Pilar
-
-Comunidad.
-
-### Etapa del embudo
-
-Confianza.
-
-### Formato recomendado
-
-Carrusel o historia.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Variable.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Compartir experiencias reales de clientes con productos AUMA.
-
-### CTA sugerido
-
-Invitar a conocer la colección.
-
----
-
-## BC-009
-
-### Nombre
-
-Comparativa de fragancias.
-
-### Objetivo
-
-Facilitar la elección.
-
-### Pilar
-
-Producto.
-
-### Etapa del embudo
-
-Educación.
-
-### Formato recomendado
-
-Carrusel.
-
-### Producción requerida
-
-Baja.
-
-### Frecuencia sugerida
-
-Media.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Comparar distintas fragancias según emociones, momentos o preferencias para ayudar al cliente a elegir.
-
-### CTA sugerido
-
-Consultar cuál aroma se adapta mejor a cada persona.
-
----
-
-## BC-010
-
-### Nombre
-
-Detrás de escena.
-
-### Objetivo
-
-Humanizar la marca.
-
-### Pilar
-
-Marca.
-
-### Etapa del embudo
-
-Confianza.
-
-### Formato recomendado
-
-Historias o Reel.
-
-### Producción requerida
-
-Muy baja.
-
-### Frecuencia sugerida
-
-Alta.
-
-### Reutilizable
-
-Sí.
-
-### Descripción
-
-Mostrar el día a día del emprendimiento, el espacio de trabajo y el proceso real detrás de AUMA.
-
-### CTA sugerido
-
-Invitar a acompañar el crecimiento de la marca.
-
----
-
-# 3. Referencias
+# 7. Referencias
 
 Este documento depende de la siguiente documentación:
 
-* **Referencia:** [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
-* **Referencia:** [Criterios Editoriales](criterios-editoriales.md)
-* **Referencia:** [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
+- [Manual de Marca](../01-marca/manual-de-marca.md)
+- [Sistema Visual](../01-marca/sistema-visual.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Criterios Editoriales](criterios-editoriales.md)
 
 ---
 
-# 4. Documentos relacionados
+# 8. Documentos relacionados
 
-* [Instagram](instagram.md)
-* [Historias de Instagram](historias-instagram.md)
-* [Embudo de Contenidos](embudo-contenidos.md)
-* [Calendario Editorial](calendario-editorial.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Calendario Editorial](calendario-editorial.md)
+- [Embudo de Contenidos](embudo-contenidos.md)
 
 ---
 
-# 5. Historial de cambios
+# 9. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-* Creación de la biblioteca oficial de contenidos reutilizables de AUMA Studio.
-* Definición de los primeros diez activos de contenido.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|--------------------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Creación del documento bajo el estándar documental v2. Definición del manual operativo del canal oficial de Instagram. | Nazarena Macre |

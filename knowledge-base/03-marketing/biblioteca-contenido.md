@@ -1,30 +1,48 @@
 ---
-
 title: Biblioteca de Contenidos
 document: biblioteca-contenidos
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
+
+audience:
+
+- marketing
+- content-creators
+- ai-agent
 
 tags:
 
 - marketing
 - contenidos
 - biblioteca
-- redes-sociales
+- estrategia
+
+related_documents:
+
+- estrategia-redes-sociales.md
+- criterios-editoriales.md
+- embudo-contenidos.md
+- calendario-editorial.md
+- guia-comunicacion-fragancias.md
+
+references: []
 
 description: >
-  Biblioteca oficial de activos de contenido reutilizables de AUMA Studio. Define los formatos de contenido disponibles para planificar campañas y publicaciones de manera consistente.
+    Catálogo oficial de los activos de contenido reutilizables utilizados por
+    AUMA Studio para planificar campañas y publicaciones de manera consistente.
 ---
 
 # Biblioteca de Contenidos
@@ -35,9 +53,9 @@ description: >
 
 # Objetivo
 
-Centralizar los distintos tipos de contenido que forman parte de la estrategia de comunicación de AUMA Studio.
+Centralizar los activos de contenido reutilizables definidos por AUMA Studio para garantizar consistencia en la planificación, producción y reutilización de publicaciones.
 
-Cada activo representa un formato reutilizable que podrá adaptarse a distintos productos, campañas o momentos del año sin modificar su estructura principal.
+Cada activo representa un formato estandarizado que puede adaptarse a distintos productos, campañas o momentos comerciales sin modificar su estructura conceptual.
 
 ---
 
@@ -45,21 +63,23 @@ Cada activo representa un formato reutilizable que podrá adaptarse a distintos 
 
 Este documento incluye:
 
-* Biblioteca de activos de contenido.
-* Objetivos de cada formato.
-* Formatos recomendados.
-* Etapa del embudo.
-* Nivel de producción.
-* Reutilización.
+- catálogo de activos de contenido;
+- objetivo de cada activo;
+- pilar estratégico;
+- etapa del embudo;
+- formato recomendado;
+- nivel de producción;
+- frecuencia sugerida;
+- criterios de reutilización.
 
 No incluye:
 
-* Calendarios editoriales.
-* Campañas específicas.
-* Copys.
-* Publicaciones concretas.
-
----
+- campañas específicas;
+- publicaciones concretas;
+- copys;
+- calendario editorial;
+- planificación mensual;
+- métricas de rendimiento.
 
 # Índice
 
@@ -73,19 +93,21 @@ No incluye:
 
 # 1. Estructura de un activo
 
-Cada activo de contenido se documenta utilizando la siguiente estructura:
+Todos los activos documentados en esta biblioteca deberán mantener una estructura homogénea para facilitar su reutilización, clasificación y mantenimiento.
 
-* Código
-* Nombre
-* Objetivo
-* Pilar de contenido
-* Etapa del embudo
-* Formato recomendado
-* Producción requerida
-* Frecuencia sugerida
-* Reutilizable
-* Descripción
-* CTA sugerido
+Cada activo se documenta mediante los siguientes atributos:
+
+- Código.
+- Nombre.
+- Objetivo.
+- Pilar de contenido.
+- Etapa del embudo.
+- Formato recomendado.
+- Producción requerida.
+- Frecuencia sugerida.
+- Reutilizable.
+- Descripción.
+- CTA sugerido.
 
 ---
 
@@ -537,24 +559,24 @@ Invitar a acompañar el crecimiento de la marca.
 
 Este documento depende de la siguiente documentación:
 
-* **Referencia:** [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
-* **Referencia:** [Criterios Editoriales](criterios-editoriales.md)
-* **Referencia:** [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Criterios Editoriales](criterios-editoriales.md)
+- [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
 
 ---
 
 # 4. Documentos relacionados
 
-* [Instagram](instagram.md)
-* [Historias de Instagram](historias-instagram.md)
-* [Embudo de Contenidos](embudo-contenidos.md)
-* [Calendario Editorial](calendario-editorial.md)
+- [Calendario Editorial](calendario-editorial.md)
+- [Embudo de Contenidos](embudo-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Instagram](instagram.md)
 
 ---
 
 # 5. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-* Creación de la biblioteca oficial de contenidos reutilizables de AUMA Studio.
-* Definición de los primeros diez activos de contenido.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|--------------------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Actualización al estándar documental v2 y mejora de la definición de la biblioteca de activos reutilizables. | Nazarena Macre |
+| 1.0 | 2026-06-26 | Creación de la biblioteca oficial de contenidos reutilizables de AUMA Studio. | Nazarena Macre |

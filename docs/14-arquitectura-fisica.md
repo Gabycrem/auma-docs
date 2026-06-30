@@ -1,266 +1,420 @@
-# 14 – Arquitectura Física e Infraestructura AWS  
-Versión 1.0
+---
+title: Arquitectura Física e Infraestructura AWS
+document: arquitectura-fisica
+category: architecture
+domain: infrastructure
+version: "2.0"
+status: vigente
+
+owner: AUMA Studio
+author: Nazarena Macre
+
+repository: auma-docs
+project: auma
+
+created: 2026-06-28
+last_updated: 2026-06-29
+
+language: es-AR
+
+audience:
+
+- developers
+- management
+- ai-agent
+
+tags:
+
+- arquitectura-fisica
+- infraestructura
+- aws
+- serverless
+- cloud
+
+related_documents:
+
+- 10-arquitectura.md
+- 15-plan-despliegue.md
+- 17-mantenimiento-sla-monitoreo.md
+- 19-manual-tecnico.md
+
+references: []
+
+description: >
+    Documenta la arquitectura física, infraestructura cloud y servicios AWS
+    previstos para implementar el sistema e-commerce AUMA.
+---
+
+```md
+# Arquitectura Física e Infraestructura AWS
+
+Versión 2.0
 
 ---
 
 # 1. Introducción
 
-Este documento describe la **arquitectura física, los componentes de infraestructura y los servicios AWS** utilizados para implementar el e-commerce AUMA.
+## 1.1 Propósito
 
-Mientras que el Documento 10 explica la **arquitectura lógica**, este documento detalla la **distribución real en la nube**, los servicios involucrados, sus zonas, relaciones y justificaciones técnicas.
+Este documento describe la arquitectura física e infraestructura prevista para la implementación del sistema **AUMA**, detallando los servicios cloud, componentes de infraestructura, distribución de recursos y estrategias de despliegue adoptadas para el proyecto.
 
----
+Su propósito es documentar la organización física del sistema, facilitando su implementación, mantenimiento y evolución.
 
-# 2. Objetivo de la arquitectura física
+## 1.2 Alcance
 
-- Desplegar un e-commerce completo sin administrar servidores.  
-- Minimizar costos gracias al modelo serverless.  
-- Garantizar alta disponibilidad y escalabilidad automática.  
-- Integrar servicios de AWS de forma segura y desacoplada.  
-- Permitir un pipeline de despliegue rápido basado en GitHub.
+Este documento abarca:
 
----
+- la infraestructura cloud utilizada por el proyecto;
+- los servicios de infraestructura y su función;
+- la distribución de componentes físicos;
+- la estrategia de seguridad de la infraestructura;
+- la disponibilidad y escalabilidad de la plataforma;
+- la distribución geográfica de los recursos;
+- el flujo físico de una solicitud a través de la infraestructura.
 
-# 3. Servicios AWS utilizados
+La arquitectura lógica del sistema se documenta en:
 
-AUMA se apoya en un conjunto de servicios administrados:
+[`10-arquitectura.md`](10-arquitectura.md)
 
-| Servicio AWS        | Descripción breve |
-|---------------------|-------------------|
-| **Amplify Hosting** | Hosting del frontend (React SPA). |
-| **API Gateway**     | Exposición de API REST hacia el frontend. |
-| **AWS Lambda**      | Backend serverless para lógica de negocio. |
-| **DynamoDB**        | Base de datos NoSQL para productos, variantes y pedidos. |
-| **CloudWatch**      | Logs, métricas y monitoreo de Lambdas. |
-| **IAM**             | Control de permisos y roles de ejecución. |
-| **S3 (estático opcional)** | Almacenamiento de assets o imágenes del catálogo. |
-| **Pasarela de Pago externa** | Webhooks de confirmación de pago (post-MVP). |
+La implementación técnica del sistema se documenta en:
 
-En futuras fases se podrá integrar:
+[`19-manual-tecnico.md`](19-manual-tecnico.md)
 
-- **Cognito** (post-MVP): autenticación y manejo de sesiones.  
-- **SNS/SES** (post-MVP): notificaciones por email o SMS.  
+> **Nota**
+>
+> Esta documentación refleja la infraestructura prevista para el proyecto durante su etapa de diseño.
+>
+> A medida que el sistema evolucione hacia su implementación, este documento deberá actualizarse para reflejar la infraestructura efectivamente utilizada.
 
 ---
 
-# 4. Diagrama de Arquitectura Física (Vista AWS)
+# 2. Objetivos de la Arquitectura Física
+La infraestructura de AUMA fue diseñada con los siguientes objetivos:
 
-```
-                  ┌─────────────────────────┐
-                  │      Usuario / Web      │
-                  └───────────┬─────────────┘
-                              │
-                              ▼
-             ┌──────────────────────────────────┐
-             │       AWS Amplify Hosting        │
-             │ (Build + Deploy + HTTPS + CDN)   │
-             └───────────┬──────────────────────┘
-                         │
-                         ▼
-                ┌────────────────┐
-                │  API Gateway   │
-                │ (REST Endpoints) │
-                └─────────┬────────┘
-                          │
-                ┌─────────▼──────────┐
-                │    AWS Lambda      │
-                │ (Funciones lógica) │
-                └─────────┬──────────┘
-                          │
-                ┌─────────▼──────────┐
-                │     DynamoDB       │
-                │(Productos/Var/Ped.)│
-                └─────────┬──────────┘
-                          │
-          ┌───────────────▼────────────────┐
-          │      CloudWatch Logs & Metrics │
-          └────────────────────────────────┘
-
-
-  ┌───────────────────────────────┐
-  │     Pasarela de Pago (EXT)    │
-  │ Mercado Pago / Stripe / etc.  │
-  └───────────┬───────────────────┘
-              │ Webhook (post-MVP)
-              ▼
-        ┌───────────────┐
-        │ API Gateway    │
-        │ /pagos/webhook │
-        └───────┬───────┘
-                ▼
-          ┌───────────┐
-          │ Lambda     │
-          │ (Validación│
-          │   y update)│
-          └────────────┘
-```
-
+- desplegar un sistema completo sin administrar servidores propios;
+- minimizar los costos operativos mediante una arquitectura serverless;
+- garantizar alta disponibilidad y escalabilidad automática;
+- desacoplar los distintos componentes del sistema;
+- facilitar el despliegue continuo a partir del repositorio del proyecto;
+- permitir la evolución incremental de la infraestructura acompañando el roadmap del sistema.
 
 ---
 
-# 5. Detalle de Componentes
+# 3. Infraestructura General
 
-## 5.1 AWS Amplify Hosting (Frontend)
+## 3.1 Descripción
 
-- Aloja el sitio React SPA compilado.  
-- Realiza deploy automático desde GitHub.  
-- Provee CDN global con CloudFront.  
-- Maneja HTTPS automáticamente mediante certificados.  
-- Redirecciones configuradas para SPA (rewrites).
+La infraestructura física de AUMA se implementa sobre una arquitectura **cloud serverless** basada en servicios administrados de AWS.
 
-**Razones por las que se elige Amplify:**
-- Simple, integrado y barato.  
-- Deploy automático con un click.  
-- Ideal para proyectos serverless.
+La solución fue diseñada para minimizar la complejidad operativa, reducir costos de mantenimiento y aprovechar las capacidades de escalabilidad automática proporcionadas por la plataforma.
 
----
+Cada componente de la infraestructura cumple una función específica dentro del sistema y se integra con el resto mediante servicios administrados.
 
-## 5.2 API Gateway (Capa de API REST)
+## 3.2 Diagrama de infraestructura
 
-API Gateway expone los endpoints del backend:
+```mermaid
+flowchart TD
 
-- `/productos`
-- `/productos/{id}`
-- `/productos/{id}/variantes`
-- `/pedidos`
-- `/pagos/webhook` (post-MVP)
-- `/admin/*` (panel de gestión)
+    Usuario[Usuario / Web]
 
-**Funciones principales:**
+    Amplify[AWS Amplify Hosting]
 
-- Peticiones HTTP → Lambdas  
-- Validación de payload (opcional)  
-- Throttling, rate limiting  
-- Logs de acceso  
-- CORS para permitir solo dominio de AUMA
+    APIGateway[AWS API Gateway]
 
----
+    Lambda[AWS Lambda]
 
-## 5.3 AWS Lambda (Backend Serverless)
+    DynamoDB[Amazon DynamoDB]
 
-Cada funcionalidad importante se implementa como una Lambda:
+    CloudWatch[AWS CloudWatch]
 
-- `getProductos`  
-- `getProductoById`  
-- `getVariantesByProducto`  
-- `crearPedido`  
-- `listarPedidos`  
-- `actualizarEstadoPedido`  
-- `crearProducto` (admin)  
-- `crearVariante` (admin)  
-- `webhookPago` (post-MVP)
+    Pago[Pasarela de Pago]
 
-**Ventajas:**
+    Usuario --> Amplify
+    Amplify --> APIGateway
+    APIGateway --> Lambda
+    Lambda --> DynamoDB
+    Lambda --> CloudWatch
 
-- Se ejecuta solo cuando se necesita.  
-- Sin servidores ni mantenimiento.  
-- Escalado automático.  
-- Pago por uso real.  
+    Pago --> APIGateway
+````
+
+## 3.3 Características
+
+La infraestructura presenta las siguientes características:
+
+* Arquitectura completamente basada en servicios administrados.
+* Infraestructura serverless sin administración de servidores.
+* Escalabilidad automática según la demanda.
+* Alta disponibilidad proporcionada por la plataforma cloud.
+* Componentes desacoplados mediante servicios independientes.
+* Integración nativa entre los servicios utilizados.
+* Preparada para incorporar nuevos componentes sin afectar la infraestructura existente.
 
 ---
 
-## 5.4 DynamoDB (Base de Datos NoSQL)
+# 4. Componentes de Infraestructura
 
-Tablas:
+## 4.1 Frontend
 
-- **Productos**  
-- **VariantesProducto**  
-- **Categorias**  
-- **LineasProducto**  
-- **Recipientes**  
-- **Fragancias**  
-- **Clientes**  
-- **Pedidos**  
-- **ItemsPedido**
+### AWS Amplify Hosting
 
-Motores de acceso:
+El frontend del sistema se aloja mediante **AWS Amplify Hosting**, servicio encargado de publicar la aplicación React y gestionar su despliegue.
 
-- Key-value para búsquedas rápidas  
-- Queries por índices secundarios (GSI)  
-- Esquema flexible, ideal para variantes por fragancia  
+Responsabilidades principales:
 
----
+- alojamiento de la aplicación SPA;
+- despliegue automático desde GitHub;
+- distribución mediante CDN;
+- gestión automática de certificados HTTPS;
+- redirecciones para aplicaciones SPA.
 
-## 5.5 IAM (Seguridad y permisos)
+**Motivos de selección**
 
-Roles principales:
-
-### **LambdaExecutionRole**
-- Lectura/escritura DynamoDB  
-- Logs en CloudWatch  
-
-### **AmplifyServiceRole**
-- Permisos de despliegue desde GitHub  
-
-### **APIGatewayInvokeRole**
-- Permiso para ejecutar funciones Lambda  
-
-**Regla principal:**  
-> *Principio de mínimo privilegio*  
-Cada servicio solo puede hacer lo que estrictamente necesita.
+- integración nativa con GitHub;
+- despliegue continuo simplificado;
+- infraestructura totalmente administrada;
+- bajo costo operativo.
 
 ---
 
-## 5.6 CloudWatch (Monitoreo)
+## 4.2 Backend
 
-- Logs de ejecución de Lambdas  
-- Alarmas ante fallas de API  
-- Métricas de throughput, errores y latencia  
+### AWS API Gateway
 
----
+La API REST del sistema se expone mediante **AWS API Gateway**, actuando como punto de entrada para todas las solicitudes provenientes del frontend.
 
-## 5.7 Pasarela de pago (Externa)
+Principales responsabilidades:
 
-En el MVP se simula el pago.  
-Post-MVP se integra:
+- recepción de solicitudes HTTP;
+- enrutamiento hacia funciones AWS Lambda;
+- configuración de CORS;
+- limitación de solicitudes (Rate Limiting);
+- registro de accesos.
 
-- Mercado Pago, Stripe, o similar  
-- Notificaciones por webhook  
-- Validación de firma  
-- Actualización de estado del pedido  
+### AWS Lambda
 
----
+La lógica de negocio del sistema se implementa mediante funciones **AWS Lambda**, organizadas por dominio funcional.
 
-# 6. Arquitectura por Zonas (Regiones y AZs)
+Funciones previstas:
 
-Para minimizar costos:
+- gestión de productos;
+- gestión de variantes;
+- administración de pedidos;
+- administración del catálogo;
+- procesamiento de webhooks.
 
-- Región sugerida: **us-east-1** (Virginia)  
-- Servicios distribuidos automáticamente entre varias **AZs**:
-  - Amplify (CDN global)  
-  - API Gateway (multi-AZ)  
-  - DynamoDB (multi-AZ, redundante)  
-  - Lambda (multi-AZ)  
+**Ventajas**
 
-Alta disponibilidad sin configuración adicional.
-
----
-
-# 7. Resumen del Flujo Físico Completo
-
-1. El usuario accede a la web → servida por Amplify (CDN).  
-2. El frontend realiza llamadas API a API Gateway.  
-3. API Gateway invoca Lambdas correspondientes.  
-4. Las Lambdas leen/escriben en DynamoDB.  
-5. El usuario interactúa con carrito (local en front).  
-6. Checkout → pedido en estado “pendiente”.  
-7. (Post-MVP) Webhook de pago actualiza estado y stock.  
-8. Admin gestiona productos y pedidos mediante endpoints protegidos.
+- ejecución bajo demanda;
+- escalabilidad automática;
+- pago por consumo;
+- ausencia de administración de servidores.
 
 ---
 
-# 8. Conclusión
+## 4.3 Persistencia
 
-La arquitectura física de AUMA está basada completamente en servicios administrados de AWS.  
-Esto permite:
+### Amazon DynamoDB
 
-- costos mínimos,  
-- escalabilidad automática,  
-- cero mantenimiento de servidores,  
-- seguridad integrada,  
-- despliegue rápido,  
-- alta disponibilidad.
+La persistencia del sistema se implementa mediante **Amazon DynamoDB**, base de datos NoSQL administrada.
 
-Este diseño constituye una base sólida para el crecimiento futuro del e-commerce y soporta sin problemas el roadmap de funcionalidades definido.
+La infraestructura contempla las siguientes entidades principales:
+
+- Productos;
+- VariantesProducto;
+- Categorias;
+- LineasProducto;
+- Recipientes;
+- Fragancias;
+- Clientes;
+- Pedidos;
+- ItemsPedido.
+
+La estrategia de modelado y persistencia se documenta en:
+
+[`09-modelado-sistema.md`](09-modelado-sistema.md)
 
 ---
+
+## 4.4 Servicios complementarios
+
+La infraestructura incorpora servicios adicionales que complementan el funcionamiento del sistema.
+
+### AWS IAM
+
+Responsable de la gestión de permisos y políticas de acceso entre los distintos servicios.
+
+Se aplica el principio de **mínimo privilegio**, garantizando que cada componente disponga únicamente de los permisos estrictamente necesarios.
+
+### AWS CloudWatch
+
+Servicio destinado al monitoreo de la infraestructura.
+
+Permite:
+
+- registro de logs;
+- recopilación de métricas;
+- supervisión del rendimiento;
+- generación de alertas.
+
+### Pasarela de Pago
+
+Durante el MVP el proceso de pago será simulado.
+
+En etapas posteriores se prevé la integración con una pasarela de pagos externa mediante Webhooks para automatizar la confirmación de pagos y la actualización del estado de los pedidos.
+
+---
+
+# 5. Seguridad de Infraestructura
+
+## 5.1 Gestión de identidades
+
+La infraestructura utiliza **AWS IAM** para administrar los permisos de acceso entre los distintos servicios que componen el sistema.
+
+Los principales roles previstos son:
+
+| Rol | Responsabilidad |
+|------|-----------------|
+| LambdaExecutionRole | Acceso a DynamoDB y CloudWatch. |
+| AmplifyServiceRole | Despliegue automático del frontend desde GitHub. |
+| APIGatewayInvokeRole | Ejecución de funciones AWS Lambda. |
+
+La configuración de permisos sigue el **principio de mínimo privilegio**, garantizando que cada servicio únicamente pueda acceder a los recursos estrictamente necesarios para cumplir su función.
+
+---
+
+## 5.2 Seguridad de red
+
+La infraestructura contempla las siguientes medidas de seguridad:
+
+- comunicación cifrada mediante HTTPS;
+- configuración de CORS para restringir el acceso a la API;
+- limitación de solicitudes (Rate Limiting);
+- validación de solicitudes recibidas por la API;
+- protección de los Webhooks mediante validación de origen y firma cuando corresponda.
+
+---
+
+## 5.3 Gestión de secretos
+
+Las credenciales, claves de acceso y demás información sensible deberán administrarse mediante los mecanismos seguros proporcionados por AWS.
+
+Las credenciales no deberán almacenarse en el código fuente ni en el repositorio del proyecto.
+
+---
+
+# 6. Disponibilidad y Escalabilidad
+
+La infraestructura física de AUMA fue diseñada para aprovechar las capacidades de escalabilidad y alta disponibilidad proporcionadas por los servicios administrados de AWS.
+
+Las principales características son:
+
+- escalabilidad automática de los servicios serverless;
+- alta disponibilidad mediante infraestructura administrada;
+- tolerancia a fallos proporcionada por la plataforma cloud;
+- ausencia de administración manual de servidores;
+- crecimiento de la infraestructura según la demanda del sistema.
+
+La estrategia adoptada permite acompañar el crecimiento del proyecto sin requerir modificaciones significativas en la arquitectura física.
+
+---
+
+# 7. Monitoreo y Observabilidad
+
+La infraestructura incorpora mecanismos de monitoreo que permiten supervisar el comportamiento del sistema y detectar posibles incidentes.
+
+Las capacidades previstas incluyen:
+
+- registro centralizado de logs;
+- recopilación de métricas de infraestructura;
+- monitoreo del rendimiento de los servicios;
+- generación de alertas ante fallos;
+- auditoría de eventos relevantes.
+
+El servicio principal utilizado para estas tareas es **AWS CloudWatch**, complementado por las herramientas de monitoreo propias de los servicios administrados cuando corresponda.
+
+---
+
+# 8. Distribución Geográfica
+
+La infraestructura se implementará inicialmente en la región:
+
+- **us-east-1 (Norte de Virginia)**
+
+La selección de esta región responde a criterios de disponibilidad, costos y compatibilidad con los servicios utilizados por el proyecto.
+
+Los servicios administrados empleados distribuyen automáticamente los recursos entre múltiples Zonas de Disponibilidad (Availability Zones), proporcionando redundancia y alta disponibilidad sin requerir configuraciones adicionales.
+
+Servicios con distribución multi-AZ:
+
+- AWS Amplify Hosting;
+- AWS API Gateway;
+- AWS Lambda;
+- Amazon DynamoDB.
+
+---
+
+# 9. Flujo de Infraestructura
+
+El recorrido físico de una solicitud dentro de la infraestructura de AUMA se desarrolla de la siguiente manera:
+
+1. El usuario accede a la aplicación web publicada mediante **AWS Amplify Hosting**.
+2. El contenido estático es distribuido a través de la infraestructura CDN asociada al servicio.
+3. El frontend realiza solicitudes HTTP hacia **AWS API Gateway**.
+4. API Gateway enruta las solicitudes hacia las funciones **AWS Lambda** correspondientes.
+5. Las funciones Lambda ejecutan la lógica de negocio y acceden a **Amazon DynamoDB** cuando es necesario consultar o persistir información.
+6. Los eventos de ejecución, métricas y registros son enviados a **AWS CloudWatch** para su monitoreo.
+7. En etapas posteriores al MVP, la pasarela de pago notificará el resultado de las transacciones mediante un Webhook que será procesado por la infraestructura del sistema.
+
+---
+
+# 10. Documentos Relacionados
+
+La arquitectura física del sistema se complementa con los siguientes documentos del proyecto:
+
+- [`10-arquitectura.md`](10-arquitectura.md)
+- [`09-modelado-sistema.md`](09-modelado-sistema.md)
+- [`15-plan-despliegue.md`](15-plan-despliegue.md)
+- [`17-mantenimiento-sla-monitoreo.md`](17-mantenimiento-sla-monitoreo.md)
+- [`19-manual-tecnico.md`](19-manual-tecnico.md)
+
+---
+
+# 11. Autoría
+
+Este documento forma parte de la documentación oficial del proyecto **AUMA**, desarrollado por **Gabycrem Software** bajo la metodología **Gabycrem Engineering**.
+
+## Organización
+
+Gabycrem Software
+
+## Proyecto
+
+AUMA
+
+## Autora
+
+Nazarena Macre
+
+## Portafolio profesional
+
+GitHub: https://github.com/Gabycrem
+
+LinkedIn: https://www.linkedin.com/in/macrenazarena/
+
+---
+
+<div align="center">
+
+`Siempre construyendo, siempre aprendiendo. — GABYCREM®`
+
+</div>
+
+---
+
+# 12. Historial de cambios
+
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|--------------------------------------------------------------|----------------|
+| 2.0 | 2026-06-29 | Adaptación del documento al estándar Gabycrem Engineering. | Nazarena Macre |
+| 1.0 | 2025-11-28 | Creación del documento. | Nazarena Macre |

@@ -1,43 +1,63 @@
 ---
-
 title: Historias de Instagram
 document: historias-instagram
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
 
+audience:
+
+- marketing
+- community-manager
+- ai-agent
+
 tags:
 
+- marketing
 - instagram
 - historias
-- marketing
 - contenido
+- comunidad
+
+related_documents:
+
+- instagram.md
+- estrategia-redes-sociales.md
+- criterios-editoriales.md
+- biblioteca-contenidos.md
+- embudo-contenidos.md
+- calendario-editorial.md
+
+references: []
 
 description: >
-  Documento oficial que define los tipos de historias de Instagram utilizados por AUMA Studio, sus objetivos y criterios de uso.
+    Documento oficial que define el uso estratégico, la organización y los
+    criterios de publicación de las historias de Instagram de AUMA Studio.
 ---
 
 # Historias de Instagram
 
-> Biblioteca oficial de recursos para la publicación de historias de Instagram de AUMA Studio.
+> Documento oficial que define el uso estratégico y la gestión de las historias de Instagram de AUMA Studio.
 
 ---
 
 # Objetivo
 
-Documentar los distintos tipos de historias que forman parte de la estrategia de comunicación de AUMA Studio.
+Definir el rol que cumplen las historias de Instagram dentro de la estrategia de comunicación de AUMA Studio, estableciendo criterios para su planificación, publicación, reutilización y administración.
 
-Cada tipo de historia constituye un recurso reutilizable que puede adaptarse según el momento, la campaña o la disponibilidad de contenido.
+Este documento constituye la referencia oficial para cualquier persona o agente encargado de gestionar este canal de comunicación.
 
 ---
 
@@ -45,43 +65,63 @@ Cada tipo de historia constituye un recurso reutilizable que puede adaptarse seg
 
 Este documento incluye:
 
-* Tipos de historias.
-* Objetivos de cada formato.
-* Frecuencia sugerida.
-* CTA recomendados.
-* Buenas prácticas.
+- función de las historias dentro de la estrategia de comunicación;
+- criterios generales de publicación;
+- biblioteca de historias reutilizables;
+- organización de historias destacadas;
+- buenas prácticas de utilización.
 
 No incluye:
 
-* Historias específicas.
-* Campañas.
-* Calendarios.
-* Copys.
+- estrategia general de redes sociales;
+- publicaciones del feed;
+- campañas específicas;
+- calendario editorial;
+- criterios generales de redacción;
+- biblioteca general de contenidos.
 
 ---
 
 # Índice
 
-1. Principios generales
+1. Rol de las historias
 2. Biblioteca de historias
-3. Buenas prácticas
-4. Referencias
-5. Documentos relacionados
-6. Historial de cambios
+3. Historias destacadas
+4. Buenas prácticas
+5. Referencias
+6. Documentos relacionados
+7. Historial de cambios
 
 ---
 
-# 1. Principios generales
+# 1. Rol de las historias
 
-Las historias de Instagram constituyen el principal canal de comunicación espontánea de AUMA Studio.
+Las historias de Instagram constituyen el principal canal de comunicación cotidiana de AUMA Studio.
 
-Su objetivo no es únicamente vender, sino mantener una presencia cercana, mostrar el detrás de escena del emprendimiento y fortalecer la relación con la comunidad.
+A diferencia de las publicaciones del feed, su objetivo es acompañar el día a día del emprendimiento mediante contenido más espontáneo, cercano y dinámico, fortaleciendo el vínculo con la comunidad.
 
-Las historias deben sentirse naturales, auténticas y cotidianas.
+Las historias permiten:
+
+- mantener una presencia constante;
+- mostrar el detrás de escena del proceso artesanal;
+- generar interacción mediante herramientas nativas de Instagram;
+- comunicar novedades de forma inmediata;
+- reforzar publicaciones del feed cuando resulte oportuno;
+- acompañar campañas y lanzamientos.
+
+Su utilización deberá responder siempre a la estrategia general de comunicación definida para la marca.
+
+Las historias no reemplazan a las publicaciones permanentes del perfil, sino que las complementan.
 
 ---
 
 # 2. Biblioteca de historias
+
+La siguiente biblioteca reúne los tipos de historias reutilizables definidos por AUMA Studio.
+
+Cada elemento representa un formato de comunicación que podrá adaptarse según la campaña, el momento comercial, el contenido disponible o el objetivo de la publicación.
+
+Las historias deberán utilizarse respetando los principios definidos en la Estrategia de Redes Sociales, los Criterios Editoriales y el Manual de Marca.
 
 ---
 
@@ -317,39 +357,81 @@ Imagen o video breve.
 
 ---
 
-# 3. Buenas prácticas
+# 3. Historias destacadas
 
-* Priorizar contenido auténtico sobre contenido excesivamente producido.
-* Mantener una estética coherente con la identidad visual de AUMA.
-* Alternar historias de venta con historias de valor.
-* Evitar secuencias excesivamente largas.
-* Utilizar stickers interactivos cuando aporten valor.
-* Responder las interacciones de la comunidad en el menor tiempo posible.
-* No promocionar productos que aún no estén disponibles para la venta.
+Las historias destacadas permiten conservar contenido relevante más allá de las 24 horas de publicación y constituyen un complemento permanente del perfil de Instagram.
+
+Su objetivo es facilitar el acceso a la información más importante para nuevos visitantes y reforzar la identidad de la marca.
+
+Las historias destacadas deberán mantenerse organizadas, actualizadas y alineadas con la identidad visual de AUMA.
+
+## Organización sugerida
+
+Las colecciones recomendadas son:
+
+- Bienvenida.
+- Colección.
+- Fragancias.
+- Cuidados.
+- Proceso.
+- Clientes.
+- Preguntas frecuentes.
+
+La estructura podrá evolucionar conforme crezca la marca, procurando mantener una navegación simple y consistente.
+
+## Criterios de incorporación
+
+Una historia podrá incorporarse a las destacadas cuando:
+
+- contenga información útil que continúe siendo vigente;
+- responda preguntas frecuentes de clientes;
+- presente productos o colecciones permanentes;
+- documente procesos representativos de la marca;
+- fortalezca la confianza o la identidad de AUMA.
+
+No deberán incorporarse historias cuyo contenido sea exclusivamente temporal, como promociones de corta duración, anuncios vencidos o campañas finalizadas.
 
 ---
 
-# 4. Referencias
+# 4. Buenas prácticas
+
+La utilización de las historias de Instagram deberá respetar los siguientes criterios operativos:
+
+- priorizar contenido auténtico sobre contenido excesivamente producido;
+- mantener una estética coherente con la identidad visual de AUMA;
+- alternar historias de venta con historias de valor;
+- evitar secuencias excesivamente largas cuando no aporten información relevante;
+- utilizar herramientas interactivas únicamente cuando contribuyan al objetivo de la publicación;
+- responder las interacciones de la comunidad en el menor tiempo posible;
+- no promocionar productos que no se encuentren disponibles para la venta;
+- reutilizar contenido del feed cuando contribuya a aumentar su alcance;
+- archivar las historias para conservar material reutilizable cuando corresponda.
+
+Las historias deberán planificarse como parte de la estrategia general de comunicación y no como publicaciones aisladas.
+
+---
+
+# 5. Referencias
 
 Este documento depende de la siguiente documentación:
 
-* **Referencia:** [Instagram](instagram.md)
-* **Referencia:** [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
-* **Referencia:** [Criterios Editoriales](criterios-editoriales.md)
+- [Instagram](instagram.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Criterios Editoriales](criterios-editoriales.md)
 
 ---
 
-# 5. Documentos relacionados
+# 6. Documentos relacionados
 
-* [Biblioteca de Contenidos](biblioteca-contenidos.md)
-* [Embudo de Contenidos](embudo-contenidos.md)
-* [Calendario Editorial](calendario-editorial.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Embudo de Contenidos](embudo-contenidos.md)
+- [Calendario Editorial](calendario-editorial.md)
 
 ---
 
-# 6. Historial de cambios
+# 7. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-* Creación del documento.
-* Definición de la biblioteca oficial de historias de Instagram de AUMA Studio.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|-----------------------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Actualización de la estructura del documento, incorporación del estándar documental v2 y documentación del uso estratégico de las historias de Instagram. | Nazarena Macre |
+| 1.0 | 2026-06-26 | Creación del documento. Definición de la biblioteca oficial de historias de Instagram de AUMA Studio. | Nazarena Macre |

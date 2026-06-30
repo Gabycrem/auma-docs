@@ -1,8 +1,8 @@
 ---
-
-title: Embudo de Contenidos
-document: embudo-contenidos
+title: Calendario Editorial
+document: calendario-editorial
 category: marketing
+domain: marketing
 version: "1.0"
 status: vigente
 
@@ -10,34 +10,55 @@ owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
-created: 2026-06-26
-last_updated: 2026-06-26
+created: 2026-06-29
+last_updated: 2026-06-29
 
 language: es-AR
+
+audience:
+
+- marketing
+- content-creators
+- ai-agent
 
 tags:
 
 - marketing
-- embudo
+- calendario
+- planificación
 - contenidos
-- estrategia
+
+related_documents:
+
+- estrategia-redes-sociales.md
+- embudo-contenidos.md
+- biblioteca-contenidos.md
+- historias-instagram.md
+- instagram.md
+- metricas.md
+
+references: []
 
 description: >
-  Documento oficial que define cómo se utilizan los distintos tipos de contenido a lo largo del recorrido del cliente dentro de la estrategia de comunicación de AUMA Studio.
+    Documento oficial que define el proceso de planificación editorial de
+    AUMA Studio y los criterios utilizados para organizar la publicación de
+    contenidos en redes sociales.
+
 ---
 
-# Embudo de Contenidos
+# Calendario Editorial
 
-> Estrategia oficial para utilizar los distintos tipos de contenido según la etapa del recorrido del cliente.
+> Documento oficial que define el proceso de planificación de contenidos de AUMA Studio.
 
 ---
 
 # Objetivo
 
-Definir el recorrido de comunicación utilizado por AUMA Studio para transformar personas que descubren la marca en clientes y posteriormente en miembros activos de la comunidad.
+Definir los criterios utilizados para planificar, organizar y revisar la publicación de contenidos en los canales digitales de AUMA Studio.
 
-Este documento sirve como guía para seleccionar el tipo de contenido adecuado según el objetivo de cada publicación.
+Este documento establece el proceso de planificación editorial y sirve como guía para mantener una comunicación consistente, sostenible y alineada con los objetivos de negocio.
 
 ---
 
@@ -45,233 +66,244 @@ Este documento sirve como guía para seleccionar el tipo de contenido adecuado s
 
 Este documento incluye:
 
-* Etapas del embudo.
-* Objetivos de cada etapa.
-* Tipos de contenido recomendados.
-* CTA sugeridos.
-* Indicadores principales.
+- principios de planificación;
+- horizonte de planificación;
+- frecuencia de publicación;
+- distribución de contenidos;
+- gestión de campañas;
+- revisión del calendario.
 
 No incluye:
 
-* Calendarios editoriales.
-* Campañas específicas.
-* Copys.
-* Publicaciones concretas.
+- copys;
+- piezas gráficas;
+- activos de contenido;
+- campañas específicas;
+- métricas.
 
 ---
 
 # Índice
 
-1. Principios generales
-2. Etapas del embudo
-3. Resumen del embudo
-4. Referencias
-5. Documentos relacionados
-6. Historial de cambios
+1. Principios de planificación
+2. Horizonte de planificación
+3. Frecuencia de publicación
+4. Distribución de contenidos
+5. Gestión de campañas
+6. Revisión del calendario
+7. Referencias
+8. Documentos relacionados
+9. Historial de cambios
 
 ---
 
-# 1. Principios generales
+# 1. Principios de planificación
 
-No todo el contenido debe intentar vender.
+Toda publicación deberá formar parte de una planificación editorial y responder a un objetivo concreto dentro de la estrategia de comunicación de AUMA Studio.
 
-Cada publicación cumple una función distinta dentro del recorrido del cliente.
+El proceso de planificación deberá seguir el siguiente orden:
 
-Una estrategia equilibrada combina contenido de descubrimiento, confianza, educación, conversión y fidelización.
+```text
+Objetivo de negocio
+        ↓
+Etapa del embudo
+        ↓
+Activo de contenido
+        ↓
+Formato
+        ↓
+Canal
+        ↓
+Publicación
+```
 
-El objetivo es acompañar a la persona durante todo el proceso y no únicamente en el momento de la compra.
+La elección del formato nunca deberá ser el punto de partida de una publicación.
 
----
+Antes de producir cualquier contenido deberá definirse:
 
-# 2. Etapas del embudo
+- qué objetivo comercial persigue;
+- qué etapa del embudo busca reforzar;
+- qué activo de contenido resulta más adecuado;
+- en qué formato se producirá;
+- en qué canal será publicado.
 
-## Descubrimiento
-
-### Objetivo
-
-Dar a conocer la marca.
-
-### Qué necesita el usuario
-
-Descubrir AUMA y comprender rápidamente qué ofrece.
-
-### Contenidos recomendados
-
-* BC-002 · Ritual cotidiano
-* BC-010 · Detrás de escena
-* HI-008 · Inspiración cotidiana
-
-### CTA sugeridos
-
-* Seguir la cuenta.
-* Compartir la publicación.
-* Descubrir más contenido.
-
-### Indicadores
-
-* Alcance.
-* Compartidos.
-* Nuevos seguidores.
+Este proceso garantiza que todas las publicaciones mantengan coherencia con la estrategia general de marketing.
 
 ---
 
-## Confianza
+# 2. Horizonte de planificación
 
-### Objetivo
+La planificación editorial de AUMA Studio deberá realizarse con una visión de corto y mediano plazo para garantizar consistencia en la comunicación sin perder flexibilidad ante cambios del negocio.
 
-Humanizar la marca y demostrar autenticidad.
+Se establecen tres niveles de planificación:
 
-### Qué necesita el usuario
+## Planificación estratégica
 
-Confiar en quien está detrás del emprendimiento.
+Horizonte recomendado: trimestral.
 
-### Contenidos recomendados
+Su objetivo es definir:
 
-* BC-003 · Proceso artesanal
-* BC-005 · Preparación de pedidos
-* BC-008 · Testimonios
-* HI-002 · Proceso artesanal
-* HI-003 · Preparación de pedidos
-* HI-009 · Clientes
+- campañas principales;
+- lanzamientos;
+- objetivos generales;
+- estacionalidades;
+- fechas comerciales relevantes.
 
-### CTA sugeridos
+## Planificación táctica
 
-* Responder la historia.
-* Hacer una consulta.
-* Compartir la experiencia.
+Horizonte recomendado: mensual.
 
-### Indicadores
+Su objetivo es distribuir los distintos activos de contenido según los objetivos comerciales del período.
 
-* Respuestas.
-* Mensajes recibidos.
-* Guardados.
+Durante esta etapa se determina:
 
----
+- equilibrio entre las etapas del embudo;
+- campañas activas;
+- prioridades de comunicación;
+- productos que tendrán mayor visibilidad.
 
-## Educación
+## Planificación operativa
 
-### Objetivo
+Horizonte recomendado: semanal.
 
-Resolver dudas y reducir objeciones.
+Su objetivo es organizar las publicaciones concretas que se realizarán durante la semana.
 
-### Qué necesita el usuario
+En esta instancia se definen:
 
-Comprender mejor el producto antes de comprar.
+- activo de contenido;
+- formato;
+- canal;
+- fecha estimada de publicación.
 
-### Contenidos recomendados
+El calendario editorial deberá mantenerse como una herramienta flexible.
 
-* BC-004 · Consejos de uso
-* BC-007 · Preguntas frecuentes
-* BC-009 · Comparativa de fragancias
-
-### CTA sugeridos
-
-* Guardar la publicación.
-* Compartir.
-* Enviar una consulta.
-
-### Indicadores
-
-* Guardados.
-* Compartidos.
-* Consultas.
+Podrá modificarse cuando existan cambios de stock, oportunidades comerciales, campañas especiales o situaciones imprevistas que requieran ajustar la planificación.
 
 ---
 
-## Conversión
+# 3. Frecuencia de publicación
 
-### Objetivo
+La frecuencia de publicación deberá responder a la capacidad operativa del emprendimiento y priorizar la calidad del contenido por sobre la cantidad.
 
-Generar ventas.
+La planificación deberá ser sostenible en el tiempo y compatible con los recursos disponibles.
 
-### Qué necesita el usuario
+Como criterio general:
 
-Conocer el producto y sentirse listo para comprar.
+- mantener una presencia constante;
+- evitar largos períodos sin actividad;
+- evitar publicar contenido únicamente para completar un calendario;
+- priorizar publicaciones con un objetivo claro.
 
-### Contenidos recomendados
+La combinación de formatos deberá planificarse procurando un equilibrio entre publicaciones permanentes y contenido espontáneo.
 
-* BC-001 · Presentación de una fragancia
-* BC-006 · Packaging
-* HI-001 · Disponibilidad de productos
-* HI-010 · Novedades
-
-### CTA sugeridos
-
-* Escribime por DM.
-* Consultá disponibilidad.
-* Reservá la tuya.
-
-### Indicadores
-
-* Mensajes privados.
-* Ventas.
-* Conversión.
+Las historias de Instagram complementan la planificación editorial y podrán publicarse cuando existan oportunidades para mostrar el día a día del emprendimiento, procesos, novedades o interacción con la comunidad.
 
 ---
 
-## Fidelización
+# 4. Distribución del contenido
 
-### Objetivo
+La planificación editorial deberá mantener un equilibrio entre las distintas etapas del embudo de contenidos.
 
-Mantener el vínculo después de la compra.
+El objetivo no es publicar la misma cantidad de contenidos de cada tipo, sino asegurar que la estrategia acompañe al usuario durante todo su recorrido, desde el descubrimiento de la marca hasta la fidelización.
 
-### Qué necesita el usuario
+La distribución del contenido deberá definirse considerando:
 
-Sentirse parte de la comunidad AUMA.
+- los objetivos comerciales del período;
+- el estado del emprendimiento;
+- la disponibilidad de productos;
+- las campañas activas;
+- los resultados obtenidos en las métricas.
 
-### Contenidos recomendados
+La selección de los activos de contenido deberá realizarse siguiendo el siguiente proceso:
 
-* BC-008 · Testimonios
-* HI-009 · Clientes
-* HI-005 · Caja de preguntas
+```text
+Objetivo comercial
+        ↓
+Etapa del embudo
+        ↓
+Activo de contenido (BC / HI)
+        ↓
+Formato
+        ↓
+Canal
+        ↓
+Publicación
+```
 
-### CTA sugeridos
+El Calendario Editorial no define nuevos activos de contenido.
 
-* Compartir la experiencia.
-* Recomendar la marca.
-* Participar de la comunidad.
+Todos los formatos disponibles deberán seleccionarse a partir de la Biblioteca de Contenidos y de la Biblioteca de Historias de Instagram.
 
-### Indicadores
+La distribución del contenido podrá modificarse cuando:
 
-* Recompras.
-* Recomendaciones.
-* Menciones.
-* Historias etiquetadas.
+- cambien los objetivos comerciales;
+- se incorporen nuevos productos;
+- existan campañas específicas;
+- las métricas indiquen la necesidad de ajustar la estrategia.
 
 ---
 
-# 3. Resumen del embudo
+# 5. Gestión de campañas
 
-| Etapa          | Objetivo principal     | Contenidos               |
-| -------------- | ---------------------- | ------------------------ |
-| Descubrimiento | Dar a conocer la marca | BC-002 · BC-010 · HI-008 |
-| Confianza      | Humanizar              | BC-003 · BC-005 · BC-008 |
-| Educación      | Enseñar                | BC-004 · BC-007 · BC-009 |
-| Conversión     | Vender                 | BC-001 · BC-006 · HI-001 |
-| Fidelización   | Mantener el vínculo    | BC-008 · HI-005 · HI-009 |
+Las campañas constituyen conjuntos coordinados de publicaciones orientadas a alcanzar un objetivo específico dentro de un período determinado.
+
+Cada campaña deberá planificarse como una unidad independiente y documentarse por separado cuando su alcance lo justifique.
+
+Durante una campaña podrán priorizarse determinados activos de contenido, siempre que dicha decisión responda a un objetivo comercial claramente definido.
+
+La planificación de campañas deberá contemplar, como mínimo:
+
+- objetivo principal;
+- duración estimada;
+- productos involucrados;
+- etapas del embudo priorizadas;
+- activos de contenido seleccionados;
+- criterios de evaluación.
+
+La existencia de una campaña no reemplaza la planificación editorial habitual, sino que se integra a ella.
 
 ---
 
-# 4. Referencias
+# 6. Revisión del calendario
+
+El Calendario Editorial deberá revisarse de forma periódica para asegurar que continúe alineado con los objetivos de comunicación y con la situación actual del emprendimiento.
+
+La revisión deberá considerar:
+
+- cumplimiento de la planificación;
+- desempeño general de los contenidos;
+- resultados obtenidos según las métricas definidas;
+- cambios en la disponibilidad de productos;
+- nuevas campañas o prioridades comerciales.
+
+Las modificaciones del calendario deberán realizarse antes de producir nuevas publicaciones, procurando mantener la coherencia de la estrategia general.
+
+El calendario constituye una herramienta de planificación y podrá ajustarse siempre que exista una justificación estratégica.
+
+---
+
+# 7. Referencias
 
 Este documento depende de la siguiente documentación:
 
-* **Referencia:** [Biblioteca de Contenidos](biblioteca-contenidos.md)
-* **Referencia:** [Historias de Instagram](historias-instagram.md)
-* **Referencia:** [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Embudo de Contenidos](embudo-contenidos.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Instagram](instagram.md)
 
 ---
 
-# 5. Documentos relacionados
+# 8. Documentos relacionados
 
-* [Instagram](instagram.md)
-* [Calendario Editorial](calendario-editorial.md)
+- [Criterios Editoriales](criterios-editoriales.md)
+- [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
+- [Métricas](metricas.md)
 
 ---
 
-# 6. Historial de cambios
+# 9. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-* Creación del documento.
-* Definición del embudo oficial de contenidos de AUMA Studio.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| 1.0 | 2026-06-29 | Creación del documento. Definición del proceso oficial de planificación editorial, criterios de organización del contenido y relación con el resto de la documentación de Marketing. | Nazarena Macre |

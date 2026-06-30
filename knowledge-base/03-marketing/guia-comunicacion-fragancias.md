@@ -2,27 +2,46 @@
 title: Guía de Comunicación de Fragancias
 document: guia-comunicacion-fragancias
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
 
+audience:
+
+- marketing
+- management
+- ai-agent
+
 tags:
-  - marketing
-  - fragancias
-  - comunicación
-  - contenido
+
+- marketing
+- fragancias
+- comunicación
+- contenido
+
+related_documents:
+
+- ../01-marca/manual-de-marca.md
+- ../02-productos/coleccion-esencia.md
+- estrategia-redes-sociales.md
+- criterios-editoriales.md
+
+references: []
 
 description: >
-  Documento oficial que define los criterios de comunicación para cada fragancia comercializada por AUMA Studio.
+    Documento oficial que define los criterios de comunicación para cada
+    fragancia comercializada por AUMA Studio.
 ---
 
 # Guía de Comunicación de Fragancias
@@ -41,18 +60,19 @@ Definir la identidad comunicacional de cada fragancia para garantizar coherencia
 
 Este documento incluye:
 
-- Comunicación de las fragancias.
-- Recursos visuales.
-- Lenguaje recomendado.
-- Emociones.
-- Contextos de uso.
+- identidad comunicacional de las fragancias;
+- emociones asociadas;
+- lenguaje recomendado;
+- recursos visuales;
+- criterios para la producción de contenido.
 
 No incluye:
 
-- Información técnica de los productos.
-- Notas olfativas.
-- Especificaciones comerciales.
-- Estrategias generales de marketing.
+- información técnica del producto;
+- notas olfativas;
+- especificaciones comerciales;
+- estrategia general de marketing;
+- campañas específicas.
 
 ---
 
@@ -74,9 +94,11 @@ No incluye:
 
 Las fragancias de AUMA no se comunican únicamente como aromas.
 
-Cada una representa un momento, una emoción y un pequeño ritual cotidiano.
+Cada una representa una emoción, una experiencia cotidiana y una forma distinta de vivir los pequeños rituales que propone la marca.
 
-La comunicación deberá centrarse en la experiencia que genera cada fragancia y no solamente en sus características aromáticas.
+La comunicación deberá centrarse en esa experiencia y mantener coherencia con la identidad de AUMA, evitando describir únicamente las características aromáticas del producto.
+
+Las definiciones técnicas, comerciales y aromáticas de cada fragancia se documentan en la colección correspondiente y no deberán duplicarse en este documento.
 
 ---
 
@@ -128,12 +150,31 @@ Luz natural.
 
 Ambientes reales.
 
+## Lenguaje recomendado
+
+Natural, cercano y cálido.
+
+Priorizar frases que evoquen refugio, tranquilidad y pequeños momentos compartidos.
+
+## Tipo de copy recomendado
+
+- Narrativo.
+- Inspiracional.
+- Sensorial.
+
 ## Tipo de contenido recomendado
 
 - Ritual.
 - Lifestyle.
 - Producto.
 - Inspiración.
+
+## Evitar comunicar como
+
+- Un aroma infantil.
+- Un postre.
+- Una fragancia excesivamente dulce.
+- Un producto estacional.
 
 ## Evitar asociar con
 
@@ -173,23 +214,23 @@ Ambientes reales.
 
 Este documento depende de la siguiente documentación:
 
-- **Referencia:** [Colección Esencia](../02-productos/coleccion-esencia.md)
-- **Referencia:** [Manual de Marca](../01-marca/manual-de-marca.md)
-- **Referencia:** [Sistema Visual](../01-marca/sistema-visual.md)
+- [Manual de Marca](../01-marca/manual-de-marca.md)
+- [Sistema Visual](../01-marca/sistema-visual.md)
+- [Colección Esencia](../02-productos/coleccion-esencia.md)
 
 ---
 
 # 8. Documentos relacionados
 
-- Estrategia de Redes Sociales
-- Criterios Editoriales
-- Biblioteca de Contenidos
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Criterios Editoriales](criterios-editoriales.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
 
 ---
 
 # 9. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-- Creación del documento.
-- Definición de la guía oficial para comunicar las fragancias de AUMA Studio.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|----------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Actualización al estándar documental v2 y ampliación de los criterios de comunicación por fragancia. | Nazarena Macre |
+| 1.0 | 2026-06-26 | Creación del documento. Definición de la guía oficial para comunicar las fragancias de AUMA Studio. | Nazarena Macre |

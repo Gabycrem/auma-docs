@@ -1,41 +1,61 @@
 ---
-title: Estrategia de Redes Sociales
-document: estrategia-redes-sociales
+
+title: Criterios Editoriales
+document: criterios-editoriales
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
 
+audience:
+
+- marketing
+- content-creators
+- ai-agent
+
 tags:
-  - marketing
-  - redes-sociales
-  - instagram
-  - estrategia
+
+- marketing
+- comunicación
+- redacción
+- estilo-editorial
+
+related_documents:
+
+- ../01-marca/manual-de-marca.md
+- estrategia-redes-sociales.md
+- guia-comunicacion-fragancias.md
+- biblioteca-contenidos.md
+- embudo-contenidos.md
+
+references: []
 
 description: >
-  Documento oficial que define la estrategia de comunicación y crecimiento de AUMA Studio en redes sociales.
+  Documento oficial que define los criterios editoriales utilizados por
+  AUMA Studio para redactar, revisar y adaptar cualquier contenido de
+  comunicación, garantizando consistencia en todos los canales.
 ---
 
-# Estrategia de Redes Sociales
+# Criterios Editoriales
 
-> Estrategia oficial para la comunicación y el crecimiento de AUMA Studio en redes sociales.
+> Guía oficial de redacción y edición para todas las comunicaciones de AUMA Studio.
 
 ---
 
 # Objetivo
 
-Definir los principios, objetivos y criterios utilizados para planificar, producir, publicar y evaluar el contenido de AUMA Studio en redes sociales.
-
-Este documento constituye la fuente oficial para cualquier decisión relacionada con la comunicación digital de la marca.
+Definir los criterios editoriales que deberán aplicarse a toda comunicación escrita de AUMA Studio para garantizar una identidad verbal consistente, independientemente del canal, formato o responsable de generar el contenido.
 
 ---
 
@@ -43,240 +63,207 @@ Este documento constituye la fuente oficial para cualquier decisión relacionada
 
 Este documento incluye:
 
-- Objetivos de comunicación.
-- Objetivos comerciales.
-- Plataformas utilizadas.
-- Público objetivo en redes.
-- Principios editoriales.
-- Estrategia de contenido.
-- Métricas.
-- Criterios de evaluación.
+- principios editoriales;
+- voz de la marca;
+- estilo de redacción;
+- uso del lenguaje;
+- uso de emojis;
+- criterios para llamados a la acción;
+- adaptación editorial según el formato;
+- proceso de revisión editorial.
 
 No incluye:
 
-- Identidad visual.
-- Manual de Marca.
-- Información técnica de productos.
-- Calendarios editoriales.
-- Biblioteca de contenido.
+- estrategia de marketing;
+- planificación de contenidos;
+- identidad visual;
+- campañas específicas;
+- comunicación particular de productos o fragancias;
+- definición de formatos de contenido.
 
 ---
 
 # Índice
 
-1. Objetivo general
-2. Estado actual
-3. Objetivos de negocio
-4. Plataformas
-5. Público objetivo
-6. Principios de comunicación
-7. Estrategia de contenido
-8. Embudo de contenidos
-9. Métricas
-10. Referencias
-11. Documentos relacionados
-12. Historial de cambios
+1. Principios editoriales
+2. Voz de la marca
+3. Estilo de redacción
+4. Uso del lenguaje
+5. Uso de emojis
+6. Llamados a la acción
+7. Adaptación por formato
+8. Revisión editorial
+9. Referencias
+10. Documentos relacionados
+11. Historial de cambios
 
 ---
 
-# 1. Objetivo general
+# 1. Principios editoriales
 
-El objetivo principal de la estrategia de redes sociales es generar ventas sostenibles mediante contenido que fortalezca la confianza, comunique el valor de la marca y acompañe el crecimiento natural de AUMA Studio.
+Toda comunicación generada por AUMA deberá respetar los siguientes principios:
 
-Las redes sociales no se utilizan únicamente para obtener alcance o seguidores, sino como el principal canal comercial y de construcción de marca.
-
----
-
-# 2. Estado actual
-
-## Etapa del emprendimiento
-
-Emprendimiento en etapa inicial.
-
-## Canal principal de venta
-
-Instagram mediante mensajes privados (DM).
-
-## Tienda online
-
-No disponible.
-
-## Cobertura geográfica
-
-Río Grande, Tierra del Fuego.
-
-## Equipo
-
-Una única persona realiza todas las tareas del emprendimiento.
-
-## Recursos disponibles
-
-- Teléfono celular.
-- Canva.
-- Producción artesanal desde el hogar.
-- Fotografía propia.
-- Recursos naturales disponibles.
+- comunicar antes que vender;
+- inspirar antes que persuadir;
+- priorizar la claridad;
+- mantener una comunicación honesta;
+- respetar la identidad de la marca;
+- construir relaciones a largo plazo con la comunidad;
+- evitar exageraciones y promesas difíciles de cumplir.
 
 ---
 
-# 3. Objetivos de negocio
+# 2. Voz de la marca
 
-## Objetivo principal
+La comunicación de AUMA deberá transmitir una voz:
 
-Generar ventas.
+- cercana;
+- cálida;
+- serena;
+- natural;
+- auténtica;
+- humana.
 
-## Objetivo de corto plazo
+La comunicación nunca deberá sentirse:
 
-Alcanzar entre 11 y 25 ventas mensuales de la Colección Esencia.
+- agresiva;
+- impersonal;
+- forzada;
+- exageradamente comercial;
+- alarmista;
+- desesperada por vender.
 
-## Objetivos secundarios
+La definición conceptual de la identidad verbal de la marca se documenta en:
 
-- Incrementar las consultas por mensajes privados.
-- Construir confianza.
-- Consolidar la identidad de marca.
-- Generar reconocimiento local.
-- Formar una comunidad interesada en los valores de AUMA.
-
----
-
-# 4. Plataformas
-
-## Instagram
-
-Plataforma principal.
-
-Objetivos:
-
-- Construcción de marca.
-- Venta.
-- Atención de consultas.
-- Comunidad.
-
-## Pinterest
-
-Plataforma secundaria.
-
-Objetivo:
-
-Reutilizar contenido para ampliar el alcance orgánico y posicionar la marca en búsquedas visuales.
-
-## TikTok
-
-Actualmente no forma parte de la estrategia principal.
-
-El contenido podrá reutilizarse cuando exista disponibilidad de recursos para mantener el canal.
+- [Manual de Marca](../01-marca/manual-de-marca.md)
 
 ---
 
-# 5. Público objetivo
+# 3. Estilo de redacción
 
-Personas que valoran el diseño, los aromas y los pequeños rituales cotidianos.
+Como criterio general se deberá:
 
-Buscan productos artesanales con identidad, capaces de transformar un espacio y generar una experiencia de bienestar.
+- utilizar frases simples;
+- escribir párrafos breves;
+- priorizar la voz activa;
+- utilizar un lenguaje cotidiano;
+- facilitar la lectura;
+- mantener coherencia entre todas las publicaciones.
 
-La comunicación debe dirigirse a personas que compran tanto para sí mismas como para regalar.
+Se evitará:
 
----
-
-# 6. Principios de comunicación
-
-Toda publicación debe responder a un objetivo comercial.
-
-Nunca publicar contenido únicamente para "mantener activa" la cuenta.
-
-Antes de crear cualquier publicación preguntarse:
-
-- ¿Aporta valor?
-- ¿Genera confianza?
-- ¿Refuerza la identidad de AUMA?
-- ¿Puede acercar una venta?
-- ¿Es sostenible repetir este tipo de contenido durante varios meses?
-
-Si la respuesta es negativa, la publicación deberá replantearse.
+- exceso de adjetivos;
+- tecnicismos innecesarios;
+- textos excesivamente extensos cuando el formato no lo requiera;
+- repeticiones innecesarias.
 
 ---
 
-# 7. Estrategia de contenido
+# 4. Uso del lenguaje
 
-El contenido deberá construirse sobre cinco pilares.
+En toda comunicación se deberá:
 
-## Producto
+- escribir siempre **AUMA** en mayúsculas;
+- mantener un tono respetuoso y cercano;
+- utilizar un vocabulario coherente con la identidad de la marca.
 
-Presentación de productos y fragancias.
+Se evitará utilizar:
 
-## Ritual
+- lenguaje agresivo;
+- falsas urgencias;
+- promesas exageradas;
+- expresiones propias de promociones masivas;
+- comparaciones despectivas con otras marcas.
 
-Mostrar cómo integrar las velas en momentos cotidianos.
+Las palabras recomendadas y las palabras que deben evitarse se documentan en:
 
-## Proceso
-
-Comunicar el trabajo artesanal y el detrás de escena.
-
-## Educación
-
-Enseñar sobre el uso, cuidado y beneficios de las velas.
-
-## Marca
-
-Comunicar valores, propósito e identidad.
+- [Manual de Marca](../01-marca/manual-de-marca.md)
 
 ---
 
-# 8. Embudo de contenidos
+# 5. Uso de emojis
 
-Toda publicación deberá cumplir al menos una de las siguientes funciones:
+Los emojis deberán utilizarse únicamente cuando complementen el mensaje.
 
-- Descubrimiento.
-- Construcción de confianza.
-- Educación.
-- Conversión.
-- Fidelización.
+Su uso deberá ser moderado y coherente con la identidad visual y verbal de la marca.
 
-Las publicaciones deberán planificarse como campañas y no como piezas aisladas.
+Como referencia general podrán utilizarse:
 
----
+- 🤍
+- ✨
+- 🌿
+- ☁️
+- 🕯️
 
-# 9. Métricas
-
-Las métricas prioritarias son:
-
-- Consultas recibidas por DM.
-- Ventas generadas.
-- Conversión de consultas en ventas.
-
-Las siguientes métricas son secundarias:
-
-- Alcance.
-- Guardados.
-- Compartidos.
-- Seguidores.
-- Me gusta.
-
-Nunca optimizar contenido únicamente para obtener mayor cantidad de "likes".
+Se evitará el uso excesivo de emojis o aquellos que transmitan urgencia, agresividad o una comunicación incompatible con la identidad de AUMA.
 
 ---
 
-# 10. Referencias
+# 6. Llamados a la acción
+
+Los llamados a la acción deberán sentirse naturales y coherentes con el tono general de la marca.
+
+Como criterio general deberán invitar a la interacción sin ejercer presión sobre la decisión del cliente.
+
+Ejemplos habituales:
+
+- Escribime por DM.
+- Consultá disponibilidad.
+- Descubrí la colección.
+- Guardá esta publicación.
+- Compartilo con quien pueda disfrutarlo.
+
+---
+
+# 7. Adaptación por formato
+
+Los criterios editoriales deberán mantenerse independientemente del formato utilizado.
+
+Las particularidades de cada tipo de contenido se documentan en los documentos específicos correspondientes.
+
+Entre ellos:
+
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Instagram](instagram.md)
+
+---
+
+# 8. Revisión editorial
+
+Antes de publicar cualquier contenido deberá verificarse que:
+
+- respete el Manual de Marca;
+- mantenga la voz de AUMA;
+- sea fácil de comprender;
+- responda a un objetivo concreto;
+- sea coherente con la estrategia de comunicación;
+- utilice un llamado a la acción cuando corresponda;
+- no contradiga la comunicación definida para el producto o la fragancia.
+
+---
+
+# 9. Referencias
 
 Este documento depende de la siguiente documentación:
 
-- **Referencia:** [Manual de Marca](../01-marca/manual-de-marca.md)
-- **Referencia:** [Sistema Visual](../01-marca/sistema-visual.md)
-- **Referencia:** [Colección Esencia](../02-productos/coleccion-esencia.md)
+- [Manual de Marca](../01-marca/manual-de-marca.md)
+- [Estrategia de Redes Sociales](estrategia-redes-sociales.md)
+- [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
 
 ---
 
-# 11. Documentos relacionados
+# 10. Documentos relacionados
 
-- Biblioteca de Contenidos
-- Guía de Comunicación de Fragancias
-- Calendario Editorial
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Embudo de Contenidos](embudo-contenidos.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Instagram](instagram.md)
 
 ---
 
-# 12. Historial de cambios
+# 11. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-- Creación del documento.
-- Definición de la estrategia oficial de redes sociales de AUMA Studio.
+| Versión | Fecha      | Cambio                                                                                                                   | Autor          |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------ | -------------- |
+| 2.0     | 2026-06-29 | Creación del documento bajo el estándar documental v2. Definición de los criterios editoriales oficiales de AUMA Studio. | Nazarena Macre |

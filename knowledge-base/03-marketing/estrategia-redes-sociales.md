@@ -2,27 +2,47 @@
 title: Estrategia de Redes Sociales
 document: estrategia-redes-sociales
 category: marketing
-version: "1.0"
+domain: marketing
+version: "2.0"
 status: vigente
 
 owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
-last_updated: 2026-06-26
+last_updated: 2026-06-29
 
 language: es-AR
 
+audience:
+
+- marketing
+- management
+- ai-agent
+
 tags:
-  - marketing
-  - redes-sociales
-  - instagram
-  - estrategia
+
+- marketing
+- redes-sociales
+- instagram
+- estrategia
+
+related_documents:
+
+- ../01-marca/manual-de-marca.md
+- ../01-marca/sistema-visual.md
+- ../02-productos/coleccion-esencia.md
+- embudo-contenidos.md
+- biblioteca-contenidos.md
+
+references: []
 
 description: >
-  Documento oficial que define la estrategia de comunicación y crecimiento de AUMA Studio en redes sociales.
+    Documento oficial que define la estrategia de comunicación y crecimiento
+    de AUMA Studio en redes sociales.
 ---
 
 # Estrategia de Redes Sociales
@@ -43,36 +63,38 @@ Este documento constituye la fuente oficial para cualquier decisión relacionada
 
 Este documento incluye:
 
-- Objetivos de comunicación.
-- Objetivos comerciales.
-- Plataformas utilizadas.
-- Público objetivo en redes.
-- Principios editoriales.
-- Estrategia de contenido.
-- Métricas.
-- Criterios de evaluación.
+- estrategia general de comunicación;
+- objetivos comerciales en redes sociales;
+- plataformas digitales utilizadas;
+- público objetivo;
+- principios de comunicación;
+- pilares de contenido;
+- criterios generales para la planificación de publicaciones;
+- evaluación de la estrategia.
 
 No incluye:
 
-- Identidad visual.
-- Manual de Marca.
-- Información técnica de productos.
-- Calendarios editoriales.
-- Biblioteca de contenido.
+- identidad de marca;
+- identidad visual;
+- documentación de productos;
+- campañas específicas;
+- calendarios editoriales;
+- bibliotecas de contenidos;
+- guías de comunicación específicas por producto o fragancia.
 
 ---
 
 # Índice
 
 1. Objetivo general
-2. Estado actual
-3. Objetivos de negocio
+2. Contexto operativo
+3. Objetivos de marketing
 4. Plataformas
 5. Público objetivo
 6. Principios de comunicación
 7. Estrategia de contenido
 8. Embudo de contenidos
-9. Métricas
+9. Evaluación de la estrategia
 10. Referencias
 11. Documentos relacionados
 12. Historial de cambios
@@ -87,7 +109,7 @@ Las redes sociales no se utilizan únicamente para obtener alcance o seguidores,
 
 ---
 
-# 2. Estado actual
+# 2. Contexto operativo
 
 ## Etapa del emprendimiento
 
@@ -119,7 +141,7 @@ Una única persona realiza todas las tareas del emprendimiento.
 
 ---
 
-# 3. Objetivos de negocio
+# 3. Objetivos de marketing
 
 ## Objetivo principal
 
@@ -140,6 +162,10 @@ Alcanzar entre 11 y 25 ventas mensuales de la Colección Esencia.
 ---
 
 # 4. Plataformas
+
+Cada plataforma utilizada por AUMA cumple una función específica dentro de la estrategia general de comunicación.
+
+La presencia en nuevos canales deberá responder a objetivos comerciales concretos y a la capacidad operativa disponible.
 
 ## Instagram
 
@@ -174,7 +200,7 @@ Personas que valoran el diseño, los aromas y los pequeños rituales cotidianos.
 
 Buscan productos artesanales con identidad, capaces de transformar un espacio y generar una experiencia de bienestar.
 
-La comunicación debe dirigirse a personas que compran tanto para sí mismas como para regalar.
+La comunicación debe dirigirse tanto a personas que compran para sí mismas como a quienes buscan realizar un regalo con significado.
 
 ---
 
@@ -182,9 +208,9 @@ La comunicación debe dirigirse a personas que compran tanto para sí mismas com
 
 Toda publicación debe responder a un objetivo comercial.
 
-Nunca publicar contenido únicamente para "mantener activa" la cuenta.
+Nunca deberá publicarse contenido únicamente para mantener actividad en la cuenta.
 
-Antes de crear cualquier publicación preguntarse:
+Antes de crear cualquier publicación deberá responderse afirmativamente a las siguientes preguntas:
 
 - ¿Aporta valor?
 - ¿Genera confianza?
@@ -198,61 +224,63 @@ Si la respuesta es negativa, la publicación deberá replantearse.
 
 # 7. Estrategia de contenido
 
-El contenido deberá construirse sobre cinco pilares.
+La estrategia de contenidos de AUMA se apoya en cinco pilares principales.
+
+Cada publicación deberá responder, como mínimo, a uno de ellos.
+
+La definición detallada de los formatos reutilizables se documenta en la **Biblioteca de Contenidos**, mientras que la planificación temporal corresponde al **Calendario Editorial**.
 
 ## Producto
 
-Presentación de productos y fragancias.
+Presentación de productos, colecciones y fragancias disponibles.
 
 ## Ritual
 
-Mostrar cómo integrar las velas en momentos cotidianos.
+Mostrar cómo integrar las velas AUMA en momentos cotidianos para generar bienestar.
 
 ## Proceso
 
-Comunicar el trabajo artesanal y el detrás de escena.
+Comunicar el trabajo artesanal, la producción y el detrás de escena del emprendimiento.
 
 ## Educación
 
-Enseñar sobre el uso, cuidado y beneficios de las velas.
+Enseñar sobre el uso, cuidado y beneficios de los productos.
 
 ## Marca
 
-Comunicar valores, propósito e identidad.
+Comunicar el propósito, los valores y la identidad de AUMA.
 
 ---
 
 # 8. Embudo de contenidos
 
-Toda publicación deberá cumplir al menos una de las siguientes funciones:
+Toda publicación deberá responder al menos a una etapa del recorrido del cliente.
+
+Las etapas definidas por la estrategia son:
 
 - Descubrimiento.
-- Construcción de confianza.
+- Confianza.
 - Educación.
 - Conversión.
 - Fidelización.
 
-Las publicaciones deberán planificarse como campañas y no como piezas aisladas.
+La definición de cada etapa, los objetivos asociados y los tipos de contenido recomendados se documentan en:
+
+- [Embudo de Contenidos](embudo-contenidos.md)
+
+Las publicaciones deberán planificarse como parte de una estrategia integral y no como piezas aisladas.
 
 ---
 
-# 9. Métricas
+# 9. Evaluación de la estrategia
 
-Las métricas prioritarias son:
+La estrategia de redes sociales deberá evaluarse mediante indicadores que permitan medir el cumplimiento de los objetivos definidos para la comunicación de la marca.
 
-- Consultas recibidas por DM.
-- Ventas generadas.
-- Conversión de consultas en ventas.
+La definición de las métricas, su interpretación y el procedimiento de seguimiento se documentan en:
 
-Las siguientes métricas son secundarias:
+- [Métricas](metricas.md)
 
-- Alcance.
-- Guardados.
-- Compartidos.
-- Seguidores.
-- Me gusta.
-
-Nunca optimizar contenido únicamente para obtener mayor cantidad de "likes".
+Las decisiones relacionadas con la estrategia deberán basarse en dichos indicadores y no únicamente en métricas de vanidad, como la cantidad de seguidores o de "Me gusta".
 
 ---
 
@@ -260,23 +288,26 @@ Nunca optimizar contenido únicamente para obtener mayor cantidad de "likes".
 
 Este documento depende de la siguiente documentación:
 
-- **Referencia:** [Manual de Marca](../01-marca/manual-de-marca.md)
-- **Referencia:** [Sistema Visual](../01-marca/sistema-visual.md)
-- **Referencia:** [Colección Esencia](../02-productos/coleccion-esencia.md)
+- [Manual de Marca](../01-marca/manual-de-marca.md)
+- [Sistema Visual](../01-marca/sistema-visual.md)
+- [Colección Esencia](../02-productos/coleccion-esencia.md)
 
 ---
 
 # 11. Documentos relacionados
 
-- Biblioteca de Contenidos
-- Guía de Comunicación de Fragancias
-- Calendario Editorial
+- [Embudo de Contenidos](embudo-contenidos.md)
+- [Biblioteca de Contenidos](biblioteca-contenidos.md)
+- [Guía de Comunicación de Fragancias](guia-comunicacion-fragancias.md)
+- [Instagram](instagram.md)
+- [Historias de Instagram](historias-instagram.md)
+- [Calendario Editorial](calendario-editorial.md)
 
 ---
 
 # 12. Historial de cambios
 
-## v1.0 — 2026-06-26
-
-- Creación del documento.
-- Definición de la estrategia oficial de redes sociales de AUMA Studio.
+| Versión | Fecha | Cambio | Autor |
+|----------|------------|---------------------------------------------------------------|-----------------|
+| 2.0 | 2026-06-29 | Actualización de la estructura del documento, incorporación del estándar documental v2 y reorganización de responsabilidades. | Nazarena Macre |
+| 1.0 | 2026-06-26 | Creación del documento. Definición de la estrategia oficial de redes sociales de AUMA Studio. | Nazarena Macre |

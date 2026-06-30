@@ -2,24 +2,42 @@
 
 Copiar este archivo para crear cualquier nuevo documento dentro de la Knowledge Base de AUMA.
 
+> **Criterio de documentación**
+>
+> Cada documento debe documentar únicamente la información correspondiente a su responsabilidad.
+> Cuando un concepto pertenezca a otro documento, deberá referenciarse mediante un enlace Markdown relativo en lugar de duplicar contenido.
+
 ---
-title:
-document:
-category:
+
+title: 
+document: 
+category: 
+domain:
 version: "1.0"
-status: vigente
+status: borrador
 
 owner: AUMA Studio
 author: Nazarena Macre
+reviewer:
 
-repository: auma-docs
+repository: auma-docs 
+project:
 
-created:
-last_updated:
+created: 
+last_updated: 
 
 language: es-AR
 
-tags:
+audience:
+  - developers
+  - management
+  - ia-agent
+
+tags: []
+
+related_documents: []
+
+reference: []
 
 description: >
 ---
@@ -81,6 +99,6 @@ Cuando dichos documentos se encuentren disponibles, estas referencias deberán c
 
 # Historial de cambios
 
-## v1.0
-
-- Creación del documento.
+| Versión | Fecha | Cambio | Autor |
+|----------|-------|--------|-------|
+| 1.0 | YYYY-MM-DD | Creación del documento. | |

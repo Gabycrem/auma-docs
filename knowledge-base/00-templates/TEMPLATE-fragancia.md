@@ -2,6 +2,7 @@
 title: Plantilla de Fragancia
 document: template-fragancia
 category: templates
+domain: templates
 version: "1.0"
 status: plantilla
 
@@ -9,16 +10,23 @@ owner: AUMA Studio
 author: Nazarena Macre
 
 repository: auma-docs
+project: auma
 
 created: 2026-06-26
 last_updated: 2026-06-26
 
 language: es-AR
 
+audience: []
+
 tags:
   - template
   - productos
   - fragancias
+
+related_documents: []
+
+references: []
 
 description: >
   Plantilla oficial utilizada para documentar las variantes de fragancias de las colecciones de AUMA Studio.
